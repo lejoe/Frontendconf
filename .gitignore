@@ -1,1 +1,4 @@
 /web/images/.DS_Store
+log
+cache
+web/uploads
