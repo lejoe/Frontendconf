@@ -1,17 +1,10 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <link href='http://fonts.googleapis.com/css?family=Copse&v1' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans&v1' rel='stylesheet' type='text/css'>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <meta name="viewport" content=" minimum-scale=1.0, maximum-scale=1.0, width=device-width; user-scalable=no">
-        <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-2297835-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
 
         <style>
         /* http://meyerweb.com/eric/tools/css/reset/
@@ -65,39 +58,65 @@ table {
 
 
             body {
-                background-color: #dbcdb2;
-                font-family: georgia, Times New Roman, serif;
-                padding-left: 50%;
-                margin-left: -340px;
-                font-size: 100%;
-                line-height: 1.6;
+                background-color: #e1d7bc;
+                font-family: Copse, Georgia, serif;
+                font-size: 93.75%;
+                line-height: 112.5%;
 
             }
             #container {
-                background-color: #dbcdb2;
                 padding: 20px;
                 width: 680px;
             }
             #topBar {
-                display: none;
+                display:block;
+                height: 28px;
+                background-color: #0f3961;
+                width: 100%;
+            }
+
+            #socialMediaLinks {
+                    height: 19px;
+                    width: 69px;
+                    margin-right:10px;
+                    float: right;
+                    margin-top: 12px;
+                    background: url(/images/social-media-icons.png) no-repeat;
+                }
+
+            #footer {
+                background-color: #2b261c;
+                color: #ccc;
+                opacity: 0.75;
+                display: block;
+                width: 100%;
             }
             h1 {
                 width: 100%;
-                font-size: 2em;
-                color: #0f3961;
-                text-align: center;
-                border-bottom: 0px dotted #846837;
+                font-size: 362.5%;
+                color: #0e3861;
+                line-height: 100%;
+                font-family: 'Copse', arial, serif;
+                font-weight: normal;
             }
             h2 {
-                color: #de9f02;
+                color: #d69900;
                 padding-bottom: 0;
                 margin-bottom: 0;
                 font-family: impact;
                 text-transform: uppercase;
                 font-weight: normal;
-                letter-spacing:0.1em;
+                letter-spacing:0.05em;
                 line-height: 1.2em;
-                font-size: 1.4em;
+                font-size: 25px;
+            }
+            .confName {
+                font-family: 'Droid Sans', Arial, sans-serif;
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 12px;
+                line-height: 15px;
+                color: #6b6d6b;
             }
             .smallDiv {
                 width:100%;
@@ -110,18 +129,18 @@ table {
                 text-align:center;
             }
 
-            .button {
-                border: 1px solid #4E7D0E;
-                border-radius: 5px;
+            a.button {
+                border: 1px solid #2e3441;
+                border-radius: 10px;
                 width: 150px;
                 display: inline-block;
                 outline: none;
                 cursor: pointer;
                 text-align: center;
                 text-decoration: none;
-                color: #fff;
-                font-size: 12px;
-                font-weight: bold;
+                color: #e1d7bc;
+                font-size: 24px;
+                font-weight: normal;
                 padding: 7px 0;
                 background: #000;
                 background-image:
@@ -129,70 +148,114 @@ table {
                         linear,
                         left top,
                         left bottom,
-                        color-stop(0.00, #7DB72F),
-                        color-stop(100%, #4E7D0E)
+                        color-stop(0.00, #364f5d),
+                        color-stop(100%, #071941)
                     );
-                background-image: -moz-linear-gradient(center top , #7DB72F, #4E7D0E);
+                background-image: -moz-linear-gradient(center top , #364f5d, #2e3441);
             }
             .navigation {
                 list-style-type: none;
+                text-transform: uppercase;
+                color: #233248;
+                font-family: 'Droid Sans', Arial, sans-serif;
+                font-size: 93.75%;
+                font-weight: bold;
+            }
+            .navigation li {
+                float: left;
+                margin-right: 24px;
+            }
+            .navigation{
+                border-top: 2px solid #c7bea6;
+                border-bottom: 2px solid #c7bea6;
+                line-height: 45px;
+                vertical-align: middle;
+                overflow: auto;
+            }
+            .navigation li span.next {
+                    display: none;
+                }
+
+            .naviItem:hover{
+                color: #c28b00;
             }
 
+            fieldset {
+                margin: 12px 4px;
+                padding: 4px 12px;
+                border:1px dotted #000;
+            }
 
             @media screen and (orientation: portrait) and (max-width: 480px){
                 #container {
-                    width: 280px;
-                    padding:0px;
+                    margin-top: 54px;
+                }
+                #container, .centered {
+                    width: 320px;
+                    padding-left: 50%;
+                    margin-left: -160px;
                 }
                 .content {
-                    width: 260px;
-                    padding: 0 10px;
+                    width: 100%;
+                    padding: 0 ;
                 }
                 #topBar {
-                    display: block;
-                    background-color: #0f3961;
                     height: 44px;
                     color: #ccc;
+                    position: fixed;
+                    top: 0;
+                    z-index:100;
                 }
 
                 .topBarButton {
+                    font-family: 'Droid Sans', Arial, sans-serif;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-size: 12px;
+                    color: #233248;
                     display: inline;
                     line-height: 44px;
                     padding: 8px 8px;
                     margin: 0 0 0 10px;
-                    border: 1px solid #ccc;
+                    border: 0;
                     border-radius: 4px;
+                    background-image:
+                    -webkit-gradient(
+                        linear,
+                        left top,
+                        left bottom,
+                        color-stop(0.00, #dfd4b9),
+                        color-stop(100%, #c4b289)
+                    );
+                background-image: -moz-linear-gradient(center top , #364f5d, #2e3441);
                 }
-                body {
-                    margin-left: -150px;
-                    background-color: #fff;
-                }
-                .button {
+                a.button {
                     width: 100%;
                     height:44px;
+                    padding: 0;
+                    margin 0;
+                    vertical-align: middle;
+                    line-height:44px;
                 }
+                .navigation {
+                    border-top: none;
 
+                }
                 .navigation li {
+                    float: none;
                     width: 100%;
                     height: 44px;
                     vertical-align: middle;
                     line-height: 44px;
-                    border-top: 1px solid #dfc9a0;
-                    background-image:
-                        -webkit-gradient(
-                            linear,
-                            left top,
-                            left bottom,
-                            color-stop(0.00, #dbcdb2),
-                            color-stop(100%, #dfc9a0)
-                        );
-                    background-image: -moz-linear-gradient(center top , #7DB72F, #4E7D0E);
+                    border-top: 2px solid #c7bea6;
+
                 }
                 .navigation li span {
                     margin: 0 10px;
                 }
                 .navigation li span.next {
                     float: right;
+                    display: inline;
                 }
             }
         </style>
@@ -205,11 +268,26 @@ table {
     <?php include_javascripts() ?>
   </head>
   <body>
-    <div id="container">
-        <div id="topBar">
+    <div id="topBar">
             <div class="topBarButton">Menu</div>
-        </div>
+            <div id="socialMediaLinks"></div>
+    </div>
+    <div id="container">
+
+        <header>
+            <h1>front /></h1>
+                <span class="confName">Frontend Conference Zurich<br>
+                September 9th & 10th 2011</span>
+        </header>
     <?php echo $sf_content ?>
+    </div>
+    <div id="footer">
+        <div class="centered">
+            &lt;sponsors&gt;
+            <br>
+            <img src="/images/logo_liip.png"><br>
+            &lt;sponsors/&gt;
+        </div>
     </div>
   </body>
 </html>

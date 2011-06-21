@@ -26,3 +26,13 @@ May 02 17:20:27 symfony [info] {sfWebDebugLogger} Factories 33.20 ms (1)
 May 02 17:20:27 symfony [info] {sfWebDebugLogger} Action "default/index" 0.22 ms (1)
 May 02 17:20:27 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 12.50 ms (1)
 May 02 17:20:27 symfony [info] {sfWebResponse} Send content (29579 o)
+Jun 17 00:40:28 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /speakers with parameters array (  'module' => 'speakers',  'action' => 'index',)
+Jun 17 00:40:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 17 00:40:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 17 00:40:28 symfony [info] {speakersActions} Call "speakersActions->executeIndex()"
+Jun 17 00:40:28 symfony [err] {Doctrine_Exception} Couldn't find class speakers
+Jun 17 00:40:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Jun 17 00:40:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 17 00:40:28 symfony [info] {sfWebDebugLogger} Configuration 518.33 ms (9)
+Jun 17 00:40:28 symfony [info] {sfWebDebugLogger} Factories 551.59 ms (1)
+Jun 17 00:40:28 symfony [info] {sfWebDebugLogger} Action "speakers/index" 252.58 ms (1)
