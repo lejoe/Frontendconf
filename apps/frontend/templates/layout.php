@@ -59,6 +59,7 @@ table {
 
             body {
                 background-color: #e1d7bc;
+                background-image: url(/images/bodyBG.png);
                 font-family: Copse, Georgia, serif;
                 font-size: 93.75%;
                 line-height: 112.5%;
