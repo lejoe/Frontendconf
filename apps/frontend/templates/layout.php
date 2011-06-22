@@ -161,6 +161,9 @@ table {
                 font-family: 'Droid Sans', Arial, sans-serif;
                 font-size: 93.75%;
                 font-weight: bold;
+                position:absolute;
+                top: 52px;
+                left: 260px;
             }
             .navigation li {
                 float: left;
@@ -240,7 +243,9 @@ table {
                 }
                 .navigation {
                     border-top: none;
-
+                    position:relative;
+                    top: inherit;
+                    left: inherit;
                 }
                 .navigation li {
                     float: none;
