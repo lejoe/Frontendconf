@@ -2,3 +2,14 @@
 log
 cache
 web/uploads
+web/js/.DS_Store
+
+apps/frontend/templates/.DS_Store
+
+apps/frontend/modules/home/.DS_Store
+
+apps/frontend/modules/.DS_Store
+
+apps/frontend/.DS_Store
+
+apps/frontend/modules/tickets/.DS_Store

@@ -19,7 +19,7 @@
     <body>
         <div id="topBar">
             <div class="row">
-                <div class="topBarButton">Menu</div>
+                <a href="#mobileNavigation" class="barButton">Menu</a>
                 <div id="socialMediaLinks"></div>
             </div>
         </div>
@@ -32,21 +32,16 @@
             </div>
             <div id="naviWide" class="column grid_9">
                 <ul class="navigation">
-                        <li><span><a class="naviItem">Speakers & Sessions  </a></span><span class="next">></span></li>
-                        <li><span>Tickets </span><span class="next">></span></li>
-                        <li><span>Venue </span><span class="next">></span></li>
-                        <li><span>Sponsors </span><span class="next">></span></li>
+                        <?php echo include_partial('home/navigationItems', array('myvar' => 12345)); ?>
                 </ul>
             </div>
         </div>
     <?php echo $sf_content ?>
         <div class="row">
+            <a name="mobileNavigation"></a>
             <div id="naviMobile">
                 <ul class="navigation">
-                        <li><span><a class="naviItem">Speakers & Sessions  </a></span><span class="next">></span></li>
-                        <li><span>Tickets </span><span class="next">></span></li>
-                        <li><span>Venue </span><span class="next">></span></li>
-                        <li class="last"><span>Sponsors </span><span class="next">></span></li>
+                        <?php echo include_partial('home/navigationItems', array('myvar' => 12345)); ?>
                 </ul>
             </div>
         </div>
@@ -57,7 +52,7 @@
                 <a href="http://liip.ch"><img src="images/logo_liip.png" alt="Liip is a Silver Sponsor of the Zurich Frontend Conference"></a>
                 <br><br><br>
                 <span class="confName"> Become a Sponsor</span><br><br>
-                 <a href="summary.pdf">Download the sponsors information pack</a>
+                 <a class="barButton" href="/summary.pdf">Get the sponsors information pack</a>
             </div>
         </div>
     <!-- PUT JS HERE -->

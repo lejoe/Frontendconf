@@ -86,9 +86,10 @@
                     );
                 background-image: -moz-linear-gradient(center top , #364f5d, #2e3441);
             }
-            .topBarButton {
+            .barButton {
                 font-family: 'Droid Sans', Arial, sans-serif;
                 text-transform: uppercase;
+                text-decoration: none;
                 font-weight: bold;
                 font-size: 12px;
                 color: #233248;
@@ -196,6 +197,10 @@
                     width: auto;
                     margin-right: 24px;
                     border-top: none;
+                }
+
+                .navigation li.last {
+                    border-bottom: none;
                 }
 
                 .navigation li span.next {
