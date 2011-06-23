@@ -6,13 +6,13 @@ default:
     content-type: text/html
 
   metas:
-    #title:        symfony project
+    title:         Frontend Conference Zurich - September 9th & 10th 2011
     #description:  symfony project
     #keywords:     symfony, project
     #language:     en
     #robots:       index, follow
 
-  stylesheets:    [main.css]
+  stylesheets:    [reset.css, main.css]
 
   javascripts:    []
 
