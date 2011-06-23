@@ -215,7 +215,7 @@
                 #topBar {
                     margin-bottom: 40px;
                 }
-                .topBarButton {
+                #menuButton {
                     display:none;
                 }
                 h1{

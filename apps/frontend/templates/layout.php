@@ -19,7 +19,7 @@
     <body>
         <div id="topBar">
             <div class="row">
-                <a href="#mobileNavigation" class="barButton">Menu</a>
+                <a id ="menuButton" href="#mobileNavigation" class="barButton">Menu</a>
                 <div id="socialMediaLinks"></div>
             </div>
         </div>
