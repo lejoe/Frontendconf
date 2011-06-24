@@ -11,6 +11,6 @@
                 &nbsp;
             </div>
             <div class="column grid_6">
-                <a class="button" href="/propose">Propose a Session</a>
+                <a class="button" href="/propose">Propose a Talk</a>
             </div>
         </div>

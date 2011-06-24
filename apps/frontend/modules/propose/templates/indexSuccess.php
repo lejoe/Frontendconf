@@ -1,6 +1,6 @@
 <div class="row lastBeforeFooter">
     <div class="column grid_6">
-        <h2>Propose a talk</h2>
+        <h2>Propose a Talk</h2>
         <form action="/propose/add/"  method="post">
         <fieldset>
             <legend>Tell us about Your Talk</legend>
@@ -34,11 +34,11 @@
         <fieldset>
             <legend>Orgnisational Stuff</legend>
             <p class="fsContent">
-                <label for="name">Do you have a preference for the Date of your talk?</label><br>
+                <label for="name">Do you have a preference for the day of your talk?</label>
                 <input type="radio" name="preference" value="none"> None
                 <input type="radio" name="preference" value="none"> Friday
                 <input type="radio" name="preference" value="none"> Saturday <br><br>
-                <label for="name">Does your company pay for your expenses?</label><br>
+                <label for="name">Does your company pay for your expenses?</label>
                 <input type="radio" name="preference" value="none"> Yes
                 <input type="radio" name="preference" value="none"> No
                 <input type="radio" name="preference" value="none"> I don't know<br>
