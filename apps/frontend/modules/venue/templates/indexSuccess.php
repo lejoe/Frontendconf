@@ -7,7 +7,7 @@
 
     </div>
     <div class="column grid_8">
-        <div id="map_canvas" style="width: 600px; height: 400px"></div>
+        <div id="map_canvas"></div>
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
         <script>
             (function(){
