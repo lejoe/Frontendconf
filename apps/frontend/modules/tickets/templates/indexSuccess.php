@@ -9,7 +9,7 @@
             Leave us your email-address and we will inform you once we're ready.<br>
             <form action ="/tickets/rememberMe/" method="post">
                 <input type="email" name="email">
-                <input type="submit" value="Go">
+                <input class="button" type="submit" value="Send">
             </form>
         </div>
 
