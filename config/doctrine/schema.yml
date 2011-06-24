@@ -3,9 +3,11 @@ Attendees:
   tableName: attendees
   columns:
     id:
-      type: integer(8)
-      autoincrement: true
+      type: integer(4)
+      fixed: false
+      unsigned: false
       primary: true
+      autoincrement: true
     email:
       type: string(255)
       fixed: false
@@ -97,8 +99,8 @@ Speakers:
       primary: false
       notnull: false
       autoincrement: false
-    city:
-      type: string(32)
+    bio:
+      type: string()
       fixed: false
       unsigned: false
       primary: false
@@ -109,7 +111,7 @@ Speakers:
       fixed: false
       unsigned: false
       primary: false
-      notnull: true
+      notnull: false
       autoincrement: false
     twitter:
       type: string(32)
@@ -134,6 +136,13 @@ Speakers:
       autoincrement: false
     img:
       type: string(32)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    costscovered:
+      type: string(4)
       fixed: false
       unsigned: false
       primary: false

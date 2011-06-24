@@ -10,31 +10,34 @@ Doctrine_Manager::getInstance()->bindComponent('Speakers', 'doctrine');
  * @property integer $id
  * @property string $name
  * @property string $profession
- * @property string $city
+ * @property string $bio
  * @property string $company
  * @property string $twitter
  * @property string $email
  * @property string $website
  * @property string $img
+ * @property string $costscovered
  * 
- * @method integer  getId()         Returns the current record's "id" value
- * @method string   getName()       Returns the current record's "name" value
- * @method string   getProfession() Returns the current record's "profession" value
- * @method string   getCity()       Returns the current record's "city" value
- * @method string   getCompany()    Returns the current record's "company" value
- * @method string   getTwitter()    Returns the current record's "twitter" value
- * @method string   getEmail()      Returns the current record's "email" value
- * @method string   getWebsite()    Returns the current record's "website" value
- * @method string   getImg()        Returns the current record's "img" value
- * @method Speakers setId()         Sets the current record's "id" value
- * @method Speakers setName()       Sets the current record's "name" value
- * @method Speakers setProfession() Sets the current record's "profession" value
- * @method Speakers setCity()       Sets the current record's "city" value
- * @method Speakers setCompany()    Sets the current record's "company" value
- * @method Speakers setTwitter()    Sets the current record's "twitter" value
- * @method Speakers setEmail()      Sets the current record's "email" value
- * @method Speakers setWebsite()    Sets the current record's "website" value
- * @method Speakers setImg()        Sets the current record's "img" value
+ * @method integer  getId()           Returns the current record's "id" value
+ * @method string   getName()         Returns the current record's "name" value
+ * @method string   getProfession()   Returns the current record's "profession" value
+ * @method string   getBio()          Returns the current record's "bio" value
+ * @method string   getCompany()      Returns the current record's "company" value
+ * @method string   getTwitter()      Returns the current record's "twitter" value
+ * @method string   getEmail()        Returns the current record's "email" value
+ * @method string   getWebsite()      Returns the current record's "website" value
+ * @method string   getImg()          Returns the current record's "img" value
+ * @method string   getCostscovered() Returns the current record's "costscovered" value
+ * @method Speakers setId()           Sets the current record's "id" value
+ * @method Speakers setName()         Sets the current record's "name" value
+ * @method Speakers setProfession()   Sets the current record's "profession" value
+ * @method Speakers setBio()          Sets the current record's "bio" value
+ * @method Speakers setCompany()      Sets the current record's "company" value
+ * @method Speakers setTwitter()      Sets the current record's "twitter" value
+ * @method Speakers setEmail()        Sets the current record's "email" value
+ * @method Speakers setWebsite()      Sets the current record's "website" value
+ * @method Speakers setImg()          Sets the current record's "img" value
+ * @method Speakers setCostscovered() Sets the current record's "costscovered" value
  * 
  * @package    frontendconference
  * @subpackage model
@@ -72,21 +75,21 @@ abstract class BaseSpeakers extends sfDoctrineRecord
              'autoincrement' => false,
              'length' => 32,
              ));
-        $this->hasColumn('city', 'string', 32, array(
+        $this->hasColumn('bio', 'string', null, array(
              'type' => 'string',
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
              'notnull' => true,
              'autoincrement' => false,
-             'length' => 32,
+             'length' => '',
              ));
         $this->hasColumn('company', 'string', 32, array(
              'type' => 'string',
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
-             'notnull' => true,
+             'notnull' => false,
              'autoincrement' => false,
              'length' => 32,
              ));
@@ -125,6 +128,15 @@ abstract class BaseSpeakers extends sfDoctrineRecord
              'notnull' => false,
              'autoincrement' => false,
              'length' => 32,
+             ));
+        $this->hasColumn('costscovered', 'string', 4, array(
+             'type' => 'string',
+             'fixed' => 0,
+             'unsigned' => false,
+             'primary' => false,
+             'notnull' => false,
+             'autoincrement' => false,
+             'length' => 4,
              ));
     }
 

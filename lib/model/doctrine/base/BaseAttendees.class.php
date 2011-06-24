@@ -28,11 +28,13 @@ abstract class BaseAttendees extends sfDoctrineRecord
     public function setTableDefinition()
     {
         $this->setTableName('attendees');
-        $this->hasColumn('id', 'integer', 8, array(
+        $this->hasColumn('id', 'integer', 4, array(
              'type' => 'integer',
-             'autoincrement' => true,
+             'fixed' => 0,
+             'unsigned' => false,
              'primary' => true,
-             'length' => 8,
+             'autoincrement' => true,
+             'length' => 4,
              ));
         $this->hasColumn('email', 'string', 255, array(
              'type' => 'string',
