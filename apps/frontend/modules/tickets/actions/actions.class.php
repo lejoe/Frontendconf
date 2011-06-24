@@ -17,6 +17,17 @@ class ticketsActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    $this->forward('default', 'module');
+    //$this->forward('default', 'module');
+  }
+  public function executeRememberMe(sfWebRequest $request)
+  {
+    // make sure it is a post
+    $this->forward404Unless($request->isMethod(sfRequest::POST));
+
+    // email eintragen
+    $attendee = new Attendees();
+    $attendee->email = $this->getRequestParameter('email');
+    $attendee->entrytime = date('Y-m-d H:i:s');
+    $attendee->save();
   }
 }

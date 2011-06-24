@@ -1,4 +1,4 @@
-<li><span><a class="naviItem">Speakers & Sessions  </a></span><span class="next">></span></li>
-<li><span>Tickets </span><span class="next">></span></li>
-<li><span>Venue </span><span class="next">></span></li>
-<li class="last"><span>Sponsors </span><span class="next">></span></li>
+<a class="naviItem" href="/speakers"><li><span>Speakers & Sessions</span><span class="next">></span></li></a>
+<a class="naviItem" href="/tickets"><li><span>Tickets</span><span class="next">></span></li></a>
+<a class="naviItem" href="/venue"><li><span>Venue </span><span class="next">></span></li></a>
+<a class="naviItem" href="/sponsors"><li class="last"><span>Sponsors </span><span class="next">></span></li></a>

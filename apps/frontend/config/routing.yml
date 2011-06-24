@@ -6,6 +6,15 @@ homepage:
   url:   /
   param: { module: home, action: index }
 
+tickets:
+  url:  /tickets/
+  param: { module: tickets, action: index }
+  
+tickets:
+  url:  /tickets/rememberMe/
+  param: { module: tickets, action: rememberMe }
+  
+
 # generic rules
 # please, remove them by adding more specific rules
 default_index:

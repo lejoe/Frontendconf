@@ -23,9 +23,9 @@
                 <div id="socialMediaLinks"></div>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="header">
             <div id="logoBox" class="column grid_3">
-                <h1 class="">front /></h1>
+                <h1 class=""><a href="/">front /></a></h1>
                 <div class="confName">Frontend Conference Zurich<br>
                 September 9th & 10th 2011
                 </div>
@@ -37,9 +37,9 @@
             </div>
         </div>
     <?php echo $sf_content ?>
-        <div class="row">
+        <div class="row" id="naviMobile">
             <a name="mobileNavigation"></a>
-            <div id="naviMobile">
+            <div >
                 <ul class="navigation">
                         <?php echo include_partial('home/navigationItems', array('myvar' => 12345)); ?>
                 </ul>
@@ -49,7 +49,7 @@
             <div class="row">
                 <span class="confName">Sponsors</span>
                     <br><br>
-                <a href="http://liip.ch"><img src="images/logo_liip.png" alt="Liip is a Silver Sponsor of the Zurich Frontend Conference"></a>
+                <a href="http://liip.ch"><img src="/images/logo_liip.png" alt="Liip is a Silver Sponsor of the Zurich Frontend Conference"></a>
                 <br><br><br>
                 <span class="confName"> Become a Sponsor</span><br><br>
                  <a class="barButton" href="/summary.pdf">Get the sponsors information pack</a>

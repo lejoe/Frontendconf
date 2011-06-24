@@ -22,6 +22,11 @@
                 font-weight: normal;
                 margin-bottom: 0.2em
             }
+            h1 a, h1 a:visited {
+                text-decoration: none;
+                color: #0e3861;
+            }
+
             h2 {
                 color: #d69900;
                 padding-bottom: 0;
@@ -31,6 +36,9 @@
                 font-weight: normal;
                 letter-spacing:0.05em;
                 line-height: 1.2em;
+                font-size: 50px;
+            }
+            h2.mainclaim {
                 font-size: 34px;
             }
             .confName {
@@ -51,12 +59,13 @@
                 width: 100%;
                 margin-bottom: 18px;
             }
+
             #footer {
                 display:block;
                 background-color: #2b261c;
                 width: 100%;
-                margin-top: 20px;
-                padding: 20px 0;
+                margin-top: 0;
+                padding: 0 0 20px 0;
             }
 
 
@@ -136,7 +145,9 @@
                 font-size: 93.75%;
                 font-weight: bold;
                 text-transform: uppercase;
-                color: #233248;
+            }
+            .navigation a {
+                text-decoration: none;
             }
             .navigation li {
                 float: none;
@@ -156,10 +167,17 @@
                 float: right;
                 display: inline;
             }
+
+            .naviItem{
+                color: #233248;;
+            }
             .naviItem:hover{
                 color: #c28b00;
             }
 
+            .shooterImage {
+                display:none;
+            }
             /* home */
             #imgZH {
                 display:none;
@@ -207,7 +225,6 @@
                         display: none;
                     }
 
-
                 .narrowLayout {
                     text-align: left;
                 }
@@ -217,6 +234,12 @@
                 }
                 #menuButton {
                     display:none;
+                }
+                #header{
+                    margin-bottom: 56px;
+                }
+                .lastBeforeFooter {
+                    margin-bottom: 20px;
                 }
                 h1{
                     font-size: 362.5%;
@@ -229,11 +252,28 @@
                     width: auto;
                 }
 
+
                 a.button {
                     border-radius: 12px;
                     font-size: 32px;
                     height:72px;
                     line-height: 72px;
+                }
+                .maxWidth{
+                    width: 100%;
+                }
+
+                textarea, input[type="text"], input[type="email"], select {
+                    font-size: inherit;
+                    border: 1px solid #CCCAC8;
+                    box-shadow: 0 2px 4px rgba(220, 218, 216, 0.75) inset, 0 1px 1px rgba(255, 255, 255, 0.33);
+                    -webkit-box-shadow: rgba(220, 218, 216, 0.746094) 0px 2px 4px inset, rgba(255, 255, 255, 0.328125) 0px 1px 1px;
+                    padding: 0.6em;
+                }
+
+                .shooterImage {
+                    display:inherit;
+                    margin-bottom: -3px;
                 }
 
                 /* home */
