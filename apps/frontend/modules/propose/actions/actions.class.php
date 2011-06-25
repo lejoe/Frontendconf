@@ -24,7 +24,7 @@ class proposeActions extends sfActions
     // make sure it is a post
     $this->forward404Unless($request->isMethod(sfRequest::POST));
 
-    // email eintragen
+    // speaker eintragen
     $speaker = new Speakers();
     $speaker->name = $this->getRequestParameter('name');
     $speaker->email = $this->getRequestParameter('email');
@@ -34,9 +34,11 @@ class proposeActions extends sfActions
     $speaker->twitter = $this->getRequestParameter('twitter');
     $speaker->website = $this->getRequestParameter('website');
     $speaker->setCostscovered($this->getRequestParameter('costsCovered'));
+    $speaker->status = "applied";
     $speaker->save();
     $id = $speaker->getId();
 
+    //talk eintragen
     $talk = new Talks();
     $talk->fk_speakers = $id;
     $talk->title = $this->getRequestParameter('title');

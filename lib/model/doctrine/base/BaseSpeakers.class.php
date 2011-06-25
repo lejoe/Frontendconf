@@ -17,6 +17,7 @@ Doctrine_Manager::getInstance()->bindComponent('Speakers', 'doctrine');
  * @property string $website
  * @property string $img
  * @property string $costscovered
+ * @property text $status
  * 
  * @method integer  getId()           Returns the current record's "id" value
  * @method string   getName()         Returns the current record's "name" value
@@ -28,6 +29,7 @@ Doctrine_Manager::getInstance()->bindComponent('Speakers', 'doctrine');
  * @method string   getWebsite()      Returns the current record's "website" value
  * @method string   getImg()          Returns the current record's "img" value
  * @method string   getCostscovered() Returns the current record's "costscovered" value
+ * @method text     getStatus()       Returns the current record's "status" value
  * @method Speakers setId()           Sets the current record's "id" value
  * @method Speakers setName()         Sets the current record's "name" value
  * @method Speakers setProfession()   Sets the current record's "profession" value
@@ -38,6 +40,7 @@ Doctrine_Manager::getInstance()->bindComponent('Speakers', 'doctrine');
  * @method Speakers setWebsite()      Sets the current record's "website" value
  * @method Speakers setImg()          Sets the current record's "img" value
  * @method Speakers setCostscovered() Sets the current record's "costscovered" value
+ * @method Speakers setStatus()       Sets the current record's "status" value
  * 
  * @package    frontendconference
  * @subpackage model
@@ -137,6 +140,15 @@ abstract class BaseSpeakers extends sfDoctrineRecord
              'notnull' => false,
              'autoincrement' => false,
              'length' => 4,
+             ));
+        $this->hasColumn('status', 'text', null, array(
+             'type' => 'text',
+             'fixed' => 0,
+             'unsigned' => false,
+             'primary' => false,
+             'notnull' => false,
+             'autoincrement' => false,
+             'length' => '',
              ));
     }
 

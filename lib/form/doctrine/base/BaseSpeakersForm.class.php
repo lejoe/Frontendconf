@@ -25,6 +25,7 @@ abstract class BaseSpeakersForm extends BaseFormDoctrine
       'website'      => new sfWidgetFormInputText(),
       'img'          => new sfWidgetFormInputText(),
       'costscovered' => new sfWidgetFormInputText(),
+      'status'       => new sfWidgetFormInputText(),
     ));
 
     $this->setValidators(array(
@@ -38,6 +39,7 @@ abstract class BaseSpeakersForm extends BaseFormDoctrine
       'website'      => new sfValidatorString(array('max_length' => 64, 'required' => false)),
       'img'          => new sfValidatorString(array('max_length' => 32, 'required' => false)),
       'costscovered' => new sfValidatorString(array('max_length' => 4, 'required' => false)),
+      'status'       => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('speakers[%s]');

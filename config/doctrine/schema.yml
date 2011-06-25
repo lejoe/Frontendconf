@@ -148,6 +148,13 @@ Speakers:
       primary: false
       notnull: false
       autoincrement: false
+    status:
+      type: text()
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
 Sponsors:
   connection: doctrine
   tableName: sponsors
