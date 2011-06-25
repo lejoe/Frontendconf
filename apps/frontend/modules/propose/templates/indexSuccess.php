@@ -1,7 +1,7 @@
 <div class="row lastBeforeFooter">
     <div class="column grid_6">
         <h2>Propose a Talk</h2>
-        <form action="/frontend_dev.php/propose/add/"  method="post">
+        <form action="/propose/add/"  method="post">
         <fieldset>
             <legend>Tell us about Your Talk</legend>
             <p class="fsContent">
