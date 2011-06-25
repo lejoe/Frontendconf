@@ -1,13 +1,6 @@
-/web/images/.DS_Store
+*.DS_Store
 log
 cache
 web/uploads
-web/js/.DS_Store
-apps/frontend/templates/.DS_Store
-apps/frontend/modules/home/.DS_Store
-apps/frontend/modules/.DS_Store
-apps/frontend/.DS_Store
-apps/frontend/modules/tickets/.DS_Store
-data/.DS_Store
-lib/.DS_Store
 .rsync_cache
+config/deploy/*
