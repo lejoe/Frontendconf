@@ -1,6 +1,10 @@
+<div class="row">
+    <div class="column grid_12">
+        <h2>Propose a Talk</h2>
+    </div>
+</div>
 <div class="row lastBeforeFooter">
     <div class="column grid_6">
-        <h2>Propose a Talk</h2>
         <form action="/propose/add/"  method="post">
         <fieldset>
             <legend>Tell us about Your Talk</legend>
@@ -50,7 +54,17 @@
         <input class="button" type="submit" value="Submit Proposal">
         </form>
     </div>
-    <div class="column grid_6">
-
+    <div class="column grid_1">
+        &nbsp;
+    </div>
+    <div class="column grid_5">
+        <h3>Speaker Info</h3>
+        If you plan on speaking at the Conference you might want to know the following:<br>
+        <ul  class="point">
+            <li>We will cover your travelling costs and offer you accomodation.</li>
+            <li>We can't pay you a salary or fee for giving the talk or preparing it</li>
+            <li>We're in it for the love of it, and don't make any money.</li>
+            <li>If your company can support you by covering some of your expenses we are very thankful - we can use every dime. In return this entitles your company to a "Contributor Sponsorship"</li>
+        </ul>
     </div>
 </div>

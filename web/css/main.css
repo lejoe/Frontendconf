@@ -4,11 +4,15 @@
                          margin-left: -150px;
                 }
             .grid_1, grid_2, grid_3, .grid_4, grid_5 grid_6, .grid_7, grid_8, grid_9, .grid_10, grid_11, grid_12   { width: auto; }
+            .innergrid_1 { width: 60px; }
+            .row .row .grid_5{
+                float: left;
+            }
 
 
             body {
                 background-color: #e1d7bc;
-                background-image: url(images/bodyBG.png);
+                background-image: url(/images/bodyBG.png);
                 font-family: Copse, Georgia, serif;
                 font-size: 93.75%;
                 line-height: 112.5%;
@@ -43,6 +47,31 @@
             h2.mainclaim {
                 font-size: 34px;
             }
+            h3 {
+                font-size: 24px;
+                font-family: Copse, Georgia, serif;
+                color: #60553b;
+                margin-bottom: 24px;
+                line-height: 26px;
+            }
+            h3.front {
+                border-top: 2px solid #B4AA90;
+                font-size: 14px;
+            }
+
+            ul.point {
+                margin-bottom: 12px;
+
+
+            }
+            ul.point li{
+                padding-left: 50px;
+                margin-top: 12px;
+                background: url("/images/point.png") no-repeat  0 -10px ;
+                min-height: 36px;
+            }
+
+
             .confName {
                 font-family: 'Droid Sans', Helvetica, Verdana, sans-serif;
                 text-transform: uppercase;
@@ -247,7 +276,6 @@
 
                 body {
                     background-color: #e1d7bc;
-                    background-image: url(images/bodyBG.png);
                 }
 
                 #naviMobile {
@@ -371,6 +399,7 @@
                 }
                 .row .row {
                     margin: 0 -10px;
+                    padding-left: 0;
                     width: auto;
                     display: inline-block;
                 }
