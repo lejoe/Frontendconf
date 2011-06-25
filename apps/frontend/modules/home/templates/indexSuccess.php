@@ -4,6 +4,7 @@
             </div>
             <div class="column grid_4">
                 <img src="images/zh.png" id="imgZH" alt="An image of the Grossmünster Church in Zurich">
+                    <br>
             </div>
         </div>
         <div class="row lastBeforeFooter">
@@ -54,7 +55,6 @@
                 </div>
                 <div class="row newsBG news">
                     <div class="column innergrid_1 newsdate">
-                        <br>
                         <span class="day">25</span><br>
                         <span class="month">Jun</span>
 
@@ -66,7 +66,6 @@
                 </div>
                 <div class="row newsBG news">
                     <div class="column innergrid_1 newsdate">
-                        <br>
                         <span class="day">22</span><br>
                         <span class="month">Jun</span>
 
