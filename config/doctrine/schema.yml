@@ -104,7 +104,7 @@ Programme:
       fixed: false
       unsigned: false
       primary: false
-      default: Talk
+      default: ''
       notnull: true
       autoincrement: false
 Speakers:
