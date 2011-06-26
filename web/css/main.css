@@ -106,8 +106,9 @@
 
 
             h4 {
-                color: #0e3861;
-                font-size: 15px;
+                color: #60553b;
+                font-size: 18px;
+                margin-bottom: 12px;
             }
 
             ul.point {
@@ -323,6 +324,27 @@
                 padding: 12px 0;
             }
 
+            /*speakers*/
+            .speakerRowTop {
+                padding-top: 24px;
+            }
+
+            .speakerRowBottom {
+                border-bottom: 2px solid #B4AA90;
+            }
+
+            .speakerData {
+                font-size:15px;
+                display: block;
+                padding-left: 0;
+                line-height: 20px;
+            }
+
+            .speakerData a {
+                text-decoration: none;
+                color: #0e3861;
+            }
+
             /*venue*/
             #map_canvas {
                     width: 292px; height: 200px;
@@ -424,6 +446,14 @@
                 #mainclaim{
                     padding:  0;
                 }
+
+                /*speakers*/
+                .speakerData {
+                    padding-left: 8px;
+                    display: inline;
+                }
+
+
                 /* venue */
                 #map_canvas {
                     width: 600px; height: 400px;

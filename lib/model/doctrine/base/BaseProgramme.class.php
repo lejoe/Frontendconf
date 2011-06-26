@@ -10,22 +10,22 @@ Doctrine_Manager::getInstance()->bindComponent('Programme', 'doctrine');
  * @property integer $id
  * @property integer $fk_talks
  * @property string $room
- * @property date $date
- * @property integer $timestart
+ * @property text $day
+ * @property time $timestart
  * @property time $timeend
  * @property text $type
  * 
  * @method integer   getId()        Returns the current record's "id" value
  * @method integer   getFkTalks()   Returns the current record's "fk_talks" value
  * @method string    getRoom()      Returns the current record's "room" value
- * @method date      getDate()      Returns the current record's "date" value
- * @method integer   getTimestart() Returns the current record's "timestart" value
+ * @method text      getDay()       Returns the current record's "day" value
+ * @method time      getTimestart() Returns the current record's "timestart" value
  * @method time      getTimeend()   Returns the current record's "timeend" value
  * @method text      getType()      Returns the current record's "type" value
  * @method Programme setId()        Sets the current record's "id" value
  * @method Programme setFkTalks()   Sets the current record's "fk_talks" value
  * @method Programme setRoom()      Sets the current record's "room" value
- * @method Programme setDate()      Sets the current record's "date" value
+ * @method Programme setDay()       Sets the current record's "day" value
  * @method Programme setTimestart() Sets the current record's "timestart" value
  * @method Programme setTimeend()   Sets the current record's "timeend" value
  * @method Programme setType()      Sets the current record's "type" value
@@ -66,30 +66,30 @@ abstract class BaseProgramme extends sfDoctrineRecord
              'autoincrement' => false,
              'length' => 32,
              ));
-        $this->hasColumn('date', 'date', 25, array(
-             'type' => 'date',
+        $this->hasColumn('day', 'text', null, array(
+             'type' => 'text',
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
              'notnull' => true,
+             'autoincrement' => false,
+             'length' => '',
+             ));
+        $this->hasColumn('timestart', 'time', 25, array(
+             'type' => 'time',
+             'fixed' => 0,
+             'unsigned' => false,
+             'primary' => false,
+             'notnull' => false,
              'autoincrement' => false,
              'length' => 25,
-             ));
-        $this->hasColumn('timestart', 'integer', 4, array(
-             'type' => 'integer',
-             'fixed' => 0,
-             'unsigned' => false,
-             'primary' => false,
-             'notnull' => true,
-             'autoincrement' => false,
-             'length' => 4,
              ));
         $this->hasColumn('timeend', 'time', 25, array(
              'type' => 'time',
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
-             'notnull' => true,
+             'notnull' => false,
              'autoincrement' => false,
              'length' => 25,
              ));
@@ -98,6 +98,7 @@ abstract class BaseProgramme extends sfDoctrineRecord
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
+             'default' => 'Talk',
              'notnull' => true,
              'autoincrement' => false,
              'length' => '',

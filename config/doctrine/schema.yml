@@ -23,6 +23,37 @@ Attendees:
       default: '0000-00-00 00:00:00'
       notnull: true
       autoincrement: false
+News:
+  connection: doctrine
+  tableName: news
+  columns:
+    id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    date:
+      type: date(25)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    title:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    news:
+      type: string(255)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
 Programme:
   connection: doctrine
   tableName: programme
@@ -47,32 +78,33 @@ Programme:
       primary: false
       notnull: true
       autoincrement: false
-    date:
-      type: date(25)
+    day:
+      type: text()
       fixed: false
       unsigned: false
       primary: false
       notnull: true
       autoincrement: false
     timestart:
-      type: integer(4)
+      type: time(25)
       fixed: false
       unsigned: false
       primary: false
-      notnull: true
+      notnull: false
       autoincrement: false
     timeend:
       type: time(25)
       fixed: false
       unsigned: false
       primary: false
-      notnull: true
+      notnull: false
       autoincrement: false
     type:
       type: text()
       fixed: false
       unsigned: false
       primary: false
+      default: Talk
       notnull: true
       autoincrement: false
 Speakers:

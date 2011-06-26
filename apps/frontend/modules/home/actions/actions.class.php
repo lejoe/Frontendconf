@@ -17,6 +17,12 @@ class homeActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    //$this->forward('default', 'module');
+    $q = Doctrine_Query::create()
+        ->select('s.*, t.*, p.*')
+        ->from('Speakers s')
+        ->leftJoin('s.Talks t')
+        ->where('s.status = ?', 'confirmed');
+
+    $this->speakers = $q->execute(array(), Doctrine_Core::HYDRATE_ARRAY);
   }
 }

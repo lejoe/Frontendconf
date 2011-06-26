@@ -17,24 +17,17 @@
                         <h3 class="front">&lt;speakers></h3>
                     </div>
                 </div>
+<?php foreach ($speakers as $speaker):?>
                 <div class="row speakerEntry">
                     <div class="column innergrid_1">
-                        <img class="person" src="/images/lea.png">
+                        <img class="person" src="/images/speakers/thumb_<?php echo $speaker['img'];?>">
                     </div>
                     <div class="column grid_5">
-                        <h4>Lea Verou</h4>
-                        Web developer. Passionate about open web standards, especially CSS3, HTML5 or ECMAScript. Co-founder of Fresset Ltd. Loves good design. Proficient in nerding.
+                        <h4><?php echo $speaker['name'];?></h4>
+                        <?php echo $speaker['bio'];?>
                     </div>
                 </div>
-                <div class="row speakerEntry">
-                    <div class="column innergrid_1">
-                        <img class="person" src="/images/jcf.png">
-                    </div>
-                    <div class="column grid_5">
-                        <h4>Jens Christian Fischer</h4>
-                        tinkerer, practician, putting things together and make them work.
-                    </div>
-                </div>
+<?php endforeach; ?>
 
                 <div class="row">
                     <div class="column grid_6">
