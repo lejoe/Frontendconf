@@ -378,15 +378,19 @@
                 #menuButton {
                     display:none;
                 }
-                #header{
-                    margin-bottom: 56px;
-                }
+
                 .lastBeforeFooter {
                     margin-bottom: 20px;
                 }
                 h1{
                     font-size: 362.5%;
                     width: auto;
+                }
+                h2 {
+                    margin-top: 56px;
+                }
+                h2.mainclaim {
+                    font-size: 40px;
                 }
                 .confName {
                     text-align: left;
