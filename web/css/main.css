@@ -157,7 +157,33 @@
                 width: 100%;
                 margin-top: 0;
                 padding: 20px 0;
+                color: #d3cab8;
             }
+
+            .footerEnd {
+                margin-top: 36px;
+                border-top: 2px solid #504937;
+                color: #756b52;
+            }
+
+
+            #footer a {
+                color: #fffbf5;
+
+            }
+            #footerNavigation {
+                text-transform: uppercase;
+                font-family: 'Droid Sans', Helvetica, Verdana, sans-serif;
+            }
+
+            #footerNavigation, #footerSocialMedia {
+                display: none;
+            }
+
+            #footerNavigation .next {
+                display:none;
+            }
+
 
 
             a.button, input.button {
@@ -478,7 +504,13 @@
                     width: 600px; height: 400px;
                 }
 
+                #footerNavigation, #footerSocialMedia {
+                    display: block;
+                }
 
+                .footerTop {
+                    border-bottom: 2px solid #504937;
+                }
 
                 /* ================ */
                 /* = The 1Kb Grid = */     /* 12 columns, 60 pixels each, with 20 pixel gutter */
@@ -527,4 +559,10 @@
                     line-height: 18px;
                 }
 
+
+                .footerEnd {
+                    margin-top: 36px;
+                    border-top: 2px solid #504937;
+                    color: #756b52;
+                }
             }

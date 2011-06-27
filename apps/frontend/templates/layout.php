@@ -49,12 +49,52 @@
         </div>
         <div id="footer" >
             <div class="row">
-                <span class="confName">Sponsors</span>
+                <div class="column grid_6 footerTop">
                     <br><br>
-                <a href="http://liip.ch"><img src="/images/logo_liip.png" alt="Liip is a Silver Sponsor of the Zurich Frontend Conference"></a>
-                <br><br><br>
-                <span class="confName"> Become a Sponsor</span><br><br>
-                 <a class="barButton" href="/summary.pdf">Get the sponsors information pack</a>
+                </div>
+                <div class="column grid_6">
+                    Sponsors<br><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column grid_3">
+                    <br>
+                    <ul id="footerNavigation">
+                     <?php echo include_partial('home/navigationItems', array('myvar' => 12345)); ?>
+                    </ul>
+                </div>
+                <div class="column grid_3">
+                    <div id="footerSocialMedia">
+                        <br>
+                        <iframe src="http://www.facebook.com/plugins/like.php?app_id=155023517904442&amp;href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FFrontend-Conference-Zurich%2F160697803997079&amp;send=false&amp;layout=button_count&amp;width=250&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:21px;" allowTransparency="true"></iframe>
+
+                    <br><br>
+                        <a href="http://twitter.com/frontendconfch" class="twitter-follow-button" data-button="grey" data-text-color="#FFFFFF" data-link-color="#00AEFF" data-show-count="false">Follow @frontendconfch</a>
+                        <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+                    </div>
+                </div>
+
+                <div class="column grid_3">
+                    <a href="http://liip.ch"><img src="/images/logo_liip.png" alt="Liip is a Silver Sponsor of the Zurich Frontend Conference"></a>
+                </div>
+                <div class="column grid_3">
+                    <a href="http://liip.ch"><img src="/images/logo_acme.png" alt="ACME is a Silver Sponsor of the Zurich Frontend Conference"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column grid_6">
+                    &nbsp;
+                </div>
+                <div class="column grid_6">
+                    <br>
+                        Become a Sponsor  <a href="/summary.pdf">Get the Sponsors Information Pack</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column grid_12 footerEnd">
+                    Fontend Conference Zurich
+                </div>
             </div>
         </div>
     <!-- PUT JS HERE -->
