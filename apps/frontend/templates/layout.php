@@ -40,6 +40,8 @@
         <div class="row" id="naviMobile">
             <a name="mobileNavigation"></a>
             <div >
+
+                <div class="decoDivider">menu</div>
                 <ul class="navigation">
                         <?php echo include_partial('home/navigationItems', array('myvar' => 12345)); ?>
                 </ul>

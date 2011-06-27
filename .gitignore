@@ -4,3 +4,5 @@ cache
 web/uploads
 .rsync_cache
 config/deploy/*
+
+backups/frontend.local_dump.latest.sql.gz
