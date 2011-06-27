@@ -14,7 +14,7 @@
 
                 <div class="row">
                     <div class="column grid_6">
-                        <h3 class="front">&lt;speakers></h3>
+                        <h3 class="front">Speakers</h3>
                     </div>
                 </div>
 <?php foreach ($speakers as $speaker):?>
@@ -43,7 +43,7 @@
 
                 <div class="row">
                     <div class="column grid_6">
-                        <h3 class="news">&lt;news></h3>
+                        <h3 class="news">News</h3>
                     </div>
                 </div>
                 <div class="row newsBG news">
