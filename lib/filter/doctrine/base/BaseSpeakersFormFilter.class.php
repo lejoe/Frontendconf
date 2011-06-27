@@ -22,6 +22,7 @@ abstract class BaseSpeakersFormFilter extends BaseFormFilterDoctrine
       'website'      => new sfWidgetFormFilterInput(),
       'img'          => new sfWidgetFormFilterInput(),
       'costscovered' => new sfWidgetFormFilterInput(),
+      'status'       => new sfWidgetFormFilterInput(),
     ));
 
     $this->setValidators(array(
@@ -34,6 +35,7 @@ abstract class BaseSpeakersFormFilter extends BaseFormFilterDoctrine
       'website'      => new sfValidatorPass(array('required' => false)),
       'img'          => new sfValidatorPass(array('required' => false)),
       'costscovered' => new sfValidatorPass(array('required' => false)),
+      'status'       => new sfValidatorPass(array('required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('speakers_filters[%s]');
@@ -63,6 +65,7 @@ abstract class BaseSpeakersFormFilter extends BaseFormFilterDoctrine
       'website'      => 'Text',
       'img'          => 'Text',
       'costscovered' => 'Text',
+      'status'       => 'Text',
     );
   }
 }

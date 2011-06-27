@@ -18,8 +18,8 @@ abstract class BaseProgrammeForm extends BaseFormDoctrine
       'id'        => new sfWidgetFormInputHidden(),
       'fk_talks'  => new sfWidgetFormInputText(),
       'room'      => new sfWidgetFormInputText(),
-      'date'      => new sfWidgetFormDate(),
-      'timestart' => new sfWidgetFormInputText(),
+      'day'       => new sfWidgetFormInputText(),
+      'timestart' => new sfWidgetFormTime(),
       'timeend'   => new sfWidgetFormTime(),
       'type'      => new sfWidgetFormInputText(),
     ));
@@ -28,9 +28,9 @@ abstract class BaseProgrammeForm extends BaseFormDoctrine
       'id'        => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'fk_talks'  => new sfValidatorInteger(),
       'room'      => new sfValidatorString(array('max_length' => 32)),
-      'date'      => new sfValidatorDate(),
-      'timestart' => new sfValidatorInteger(),
-      'timeend'   => new sfValidatorTime(),
+      'day'       => new sfValidatorPass(),
+      'timestart' => new sfValidatorTime(array('required' => false)),
+      'timeend'   => new sfValidatorTime(array('required' => false)),
       'type'      => new sfValidatorPass(),
     ));
 

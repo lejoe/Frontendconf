@@ -12,4 +12,14 @@
  */
 class Talks extends BaseTalks
 {
+  public function setUp()
+  {
+      parent::setUp();
+      $this->hasOne('Programme', array(
+              'local' => 'id',
+              'foreign' => 'fk_talks'
+          )
+      );
+      
+  }
 }

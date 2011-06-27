@@ -15,17 +15,17 @@ abstract class BaseProgrammeFormFilter extends BaseFormFilterDoctrine
     $this->setWidgets(array(
       'fk_talks'  => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'room'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'date'      => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
-      'timestart' => new sfWidgetFormFilterInput(array('with_empty' => false)),
-      'timeend'   => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'day'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'timestart' => new sfWidgetFormFilterInput(),
+      'timeend'   => new sfWidgetFormFilterInput(),
       'type'      => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(
       'fk_talks'  => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
       'room'      => new sfValidatorPass(array('required' => false)),
-      'date'      => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDate(array('required' => false)), 'to_date' => new sfValidatorDateTime(array('required' => false)))),
-      'timestart' => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'day'       => new sfValidatorPass(array('required' => false)),
+      'timestart' => new sfValidatorPass(array('required' => false)),
       'timeend'   => new sfValidatorPass(array('required' => false)),
       'type'      => new sfValidatorPass(array('required' => false)),
     ));
@@ -50,8 +50,8 @@ abstract class BaseProgrammeFormFilter extends BaseFormFilterDoctrine
       'id'        => 'Number',
       'fk_talks'  => 'Number',
       'room'      => 'Text',
-      'date'      => 'Date',
-      'timestart' => 'Number',
+      'day'       => 'Text',
+      'timestart' => 'Text',
       'timeend'   => 'Text',
       'type'      => 'Text',
     );

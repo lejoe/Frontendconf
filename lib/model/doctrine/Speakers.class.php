@@ -12,4 +12,14 @@
  */
 class Speakers extends BaseSpeakers
 {
+  public function setUp()
+  {
+      parent::setUp();
+      $this->hasMany('Talks', array(
+              'local' => 'id',
+              'foreign' => 'fk_speakers'
+          )
+      );
+      
+  }
 }
