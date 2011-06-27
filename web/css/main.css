@@ -1,3 +1,4 @@
+            /*Adapt the ik grid for mobile*/
             .row{
                          width: 300px;
                          padding-left: 50%;
@@ -15,7 +16,7 @@
                 width: 220px;
                 margin: 7px 0 8px 10px;
             }
-
+            /* End of Grid declaration */
 
             body {
                 background-color: #e1d7bc;
