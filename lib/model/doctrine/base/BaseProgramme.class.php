@@ -98,7 +98,6 @@ abstract class BaseProgramme extends sfDoctrineRecord
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
-             'default' => 'Talk',
              'notnull' => true,
              'autoincrement' => false,
              'length' => '',
