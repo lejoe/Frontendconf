@@ -102,7 +102,7 @@
                             features: {
                             scrollbar: false,
                             loop: false,
-                            live: true,
+                            live: false,
                             hashtags: true,
                             timestamp: true,
                             avatars: false,
