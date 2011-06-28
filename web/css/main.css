@@ -177,6 +177,10 @@
                 font-family: 'Droid Sans', Helvetica, Verdana, sans-serif;
             }
 
+            #footerNavigation a li span {
+                text-decoration:none;
+            }
+
             #footerNavigation, #footerSocialMedia {
                 display: none;
             }
