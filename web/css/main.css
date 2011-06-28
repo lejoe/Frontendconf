@@ -169,10 +169,10 @@
 
             #footer a {
                 color: #fffbf5;
-
             }
             #footerNavigation {
                 text-transform: uppercase;
+                text-decoration:none;
                 font-family: 'Droid Sans', Helvetica, Verdana, sans-serif;
             }
 
