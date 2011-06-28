@@ -24,5 +24,11 @@ class homeActions extends sfActions
         ->where('s.status = ?', 'confirmed');
 
     $this->speakers = $q->execute(array(), Doctrine_Core::HYDRATE_ARRAY);
+    $q = Doctrine_Query::create()
+        ->select('n.*')
+        ->from('News n')
+        ->orderBy('n.date desc');
+
+    $this->news = $q->execute(array(), Doctrine_Core::HYDRATE_ARRAY);
   }
 }

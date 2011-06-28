@@ -6,7 +6,7 @@
 <div class="row lastBeforeFooter">
     <div class="column grid_4">
         We don't have a set price for tickets yet, since we are still negotiating with sponsors<br><br>
-        <div class="pointout">It is our top priority though to make sure that tickets WILL BE VERY AFFORDABLE..</div>
+        <div class="pointout">AFFORDABLE TICKETS is one of our top priorities!</div>
         <br><br>
 
     </div>

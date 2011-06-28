@@ -46,28 +46,19 @@
                         <h3 class="news">News</h3>
                     </div>
                 </div>
+                <?php foreach  ($news as $new):?>
                 <div class="row newsBG news">
                     <div class="column innergrid_1 newsdate">
-                        <span class="day">25</span><br>
-                        <span class="month">Jun</span>
+                        <span class="day"><?php echo date('d',strtotime($new['date']));?></span><br>
+                        <span class="month"><?php echo date('M',strtotime($new['date']));?></span>
 
                     </div>
                     <div class="column grid_5">
-                        <h4>Site online</h4>
-                        Finally our site went online - you can now sumbit proposals and have a peek at the speakers already confirmed.
+                        <h4><?php echo $new['title'];?> </h4>
+                        <?php echo $new['news'];?>
                     </div>
                 </div>
-                <div class="row newsBG news">
-                    <div class="column innergrid_1 newsdate">
-                        <span class="day">22</span><br>
-                        <span class="month">Jun</span>
-
-                    </div>
-                    <div class="column grid_5">
-                        <h4>Frontend Conference Zurich </h4>
-                        The first Frontend Conference Zürich has been announced. Yay!
-                    </div>
-                </div>
+                <?php endforeach; ?>
                 <div class="row">
                     <div class="column grid_6">
                         <h3 class="news newsClose">&lt;news/></h3>
