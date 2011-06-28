@@ -43,7 +43,8 @@
 
                 <div class="decoDivider">menu</div>
                 <ul class="navigation">
-                        <?php echo include_partial('home/navigationItems', array('myvar' => 12345)); ?>
+                    <a class="naviItem" href="/"><li><span>Home </span><span class="next">></span></li></a>
+                    <?php echo include_partial('home/navigationItems', array('myvar' => 12345)); ?>
                 </ul>
             </div>
         </div>
@@ -60,6 +61,7 @@
                 <div class="column grid_3">
                     <br>
                     <ul id="footerNavigation">
+                        <a class="naviItem" href="/"><li><span>Home </span><span class="next">></span></li></a>
                      <?php echo include_partial('home/navigationItems', array('myvar' => 12345)); ?>
                     </ul>
                 </div>
@@ -93,7 +95,7 @@
             </div>
             <div class="row">
                 <div class="column grid_12 footerEnd">
-                    Fontend Conference Zurich
+                    Frontend Conference Zurich
                 </div>
             </div>
         </div>
