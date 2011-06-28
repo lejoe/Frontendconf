@@ -19,13 +19,15 @@
                 </div>
 <?php foreach ($speakers as $speaker):?>
                 <div class="row speakerEntry">
-                    <div class="column innergrid_1">
-                        <img class="person" src="/images/speakers/thumb_<?php echo $speaker['img'];?>">
-                    </div>
-                    <div class="column grid_5">
-                        <h4><?php echo $speaker['name'];?></h4>
-                        <?php echo $speaker['bio'];?>
-                    </div>
+                    <a href="/speakers#id<?php echo $speaker['id'];?>" class="rowLink">
+                        <div class="column innergrid_1">
+                            <img class="person" src="/images/speakers/thumb_<?php echo $speaker['img'];?>">
+                        </div>
+                        <div class="column grid_5">
+                            <h4><?php echo $speaker['name'];?></h4>
+                            <?php echo $speaker['bio'];?>
+                        </div>
+                    </a>
                 </div>
 <?php endforeach; ?>
 

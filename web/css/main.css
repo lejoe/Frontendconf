@@ -177,10 +177,6 @@
                 font-family: 'Droid Sans', Helvetica, Verdana, sans-serif;
             }
 
-            #footerNavigation a li span {
-                text-decoration:none;
-            }
-
             #footerNavigation, #footerSocialMedia {
                 display: none;
             }
@@ -356,6 +352,11 @@
 
             row.speakerEntry .column{
                 margin-bottom: 15px;
+            }
+
+            a.rowLink {
+                color: #49422f;
+                text-decoration:none;
             }
 
             /* home */
@@ -563,7 +564,9 @@
                     margin-top: 8px;
                     line-height: 18px;
                 }
-
+            #footerNavigation a {
+                text-decoration:none;
+            }
 
                 .footerEnd {
                     margin-top: 36px;
