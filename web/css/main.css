@@ -85,6 +85,9 @@
                 padding-right: 16px;
                 font-size: 14px;
             }
+            .lead {
+                font-size: 18px;
+            }
 
             a {
                 color: #0e3861;
@@ -262,7 +265,7 @@
                 position:relative;
                 top: inherit;
                 left: inherit;
-                font-size: 93.75%;
+                font-size: 100%;
                 font-weight: bold;
                 text-transform: uppercase;
             }
@@ -399,6 +402,9 @@
                 text-align: center;
                 margin: 8px 0;
             }
+            .headroom {
+                padding-top:8px;
+            }
             /*venue*/
             #map_canvas {
                     width: 292px; height: 200px;
@@ -466,7 +472,8 @@
                     margin-top: 56px;
                 }
                 h2.mainclaim {
-                    font-size: 40px;
+                    font-size: 55px;
+                    line-height: 55px;
                 }
                 .confName {
                     text-align: left;

@@ -1,6 +1,17 @@
 <div class="row">
     <div class="column grid_12">
-        <h2>Speakers &amp; Sessions</h2>
+        <h2>Speakers </h2>
+    </div>
+</div>
+<div class="row">
+    <div class="column grid_6">
+        <div class="lead">
+        We have a few speakers confirmed others will be published in the next days. But we are looking for more. So feel free to propose a talk or join the conference as an attendee.
+
+        </div>
+    </div>
+    <div class="column grid_6">
+        <a class="button" href="/propose">Propose a Talk</a>
     </div>
 </div>
 

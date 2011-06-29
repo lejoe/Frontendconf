@@ -41,7 +41,7 @@
             <a name="mobileNavigation"></a>
             <div >
 
-                <div class="decoDivider">menu</div>
+                <div class="decoDivider headroom">menu</div>
                 <ul class="navigation">
                     <a class="naviItem" href="/"><li><span>Home </span><span class="next">></span></li></a>
                     <?php echo include_partial('home/navigationItems', array('myvar' => 12345)); ?>
