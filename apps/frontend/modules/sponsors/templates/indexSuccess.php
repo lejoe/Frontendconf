@@ -5,18 +5,10 @@
 </div>
 <div class="row lastBeforeFooter">
     <div class="column grid_8">
-<h3>Essential Summary</h3>
-
-Our goal is to initiate and establish the Frontend Conference Zurich  as a leading conference about state-of-the-art frontend and UX technologies in Europe and as the leading frontend/UX conference in Switzerland.<br><br>
-The conference is an excellent platform for Swiss and European scientists, developers and designers to present their projects, latest research and technologies in the fields of Web technologies, Web design and UX/HCI (Human Computer Interaction). We'll offer an opportunity to network with and learn from peers and leading experts in their fields, appreciating contributions both from practitioners and academics likewise. Zurich, conveniently located in the heart of Europe, with the University of Zurich (UZH), Federal Institute of Technology (ETHZ) and other institutions of higher education and a strong and flourishing IT sector is an ideal place to establish this conference.
-
-
-
-
-
-
-
-
+        <div class="lead">
+            Our goal is to initiate and establish the Frontend Conference Zurich  as a leading conference about state-of-the-art frontend and UX technologies in Europe and as the leading frontend/UX conference in Switzerland.<br><br>
+        </div>
+        The conference is an excellent platform for Swiss and European scientists, developers and designers to present their projects, latest research and technologies in the fields of Web technologies, Web design and UX/HCI (Human Computer Interaction). We'll offer an opportunity to network with and learn from peers and leading experts in their fields, appreciating contributions both from practitioners and academics likewise. Zurich, conveniently located in the heart of Europe, with the University of Zurich (UZH), Federal Institute of Technology (ETHZ) and other institutions of higher education and a strong and flourishing IT sector is an ideal place to establish this conference.
     </div>
     <div class="column grid_4">
         <div class="infobox">

@@ -6,7 +6,7 @@
 <div class="row">
     <div class="column grid_6">
         <div class="lead">
-        We have a few speakers confirmed others will be published in the next days. But we are looking for more. So feel free to propose a talk or join the conference as an attendee.
+        We have some confirmed speakers, others will follow in the next days. But we are looking for more. So feel free to propose a talk or join the conference as an attendee.
 
         </div>
     </div>
