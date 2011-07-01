@@ -207,7 +207,7 @@
                 height:44px;
                 line-height: 44px;
                 vertical-align: middle;
-                background: #000;
+                background: #0e3861;
                 background-image:
                     -webkit-gradient(
                         linear,
@@ -231,6 +231,7 @@
                 margin: 0;
                 border: 0;
                 border-radius: 4px;
+                background: #dfd4b9;
                 background-image:
                 -webkit-gradient(
                     linear,
