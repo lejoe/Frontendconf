@@ -36,7 +36,7 @@
         </div>
     <?php echo $sf_content ?>
         <div class="row" id="naviMobile">
-            <a name="mobileNavigation"></a>
+            <a id="mobileNavigation"></a>
             <div >
 
                 <div class="decoDivider headroom">menu</div>
