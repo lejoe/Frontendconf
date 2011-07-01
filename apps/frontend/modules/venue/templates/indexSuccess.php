@@ -1,13 +1,23 @@
-<div class="row lastBeforeFooter">
-    <div class="column grid_4">
+<div class="row">
+    <div class="column grid_12">
         <h2>Venue</h2>
-        <br><br>
-
-
-
     </div>
-    <div class="column grid_8">
+</div>
+<div class="row lastBeforeFooter">
+    <div class="column grid_6">
+        <div class="lead">The Frontend Conference 2011 will take place at the Department of Informatics kindly provided by the University of Zurich. It is situated in Zurich Oerlikon just 10 minutes from the city center by public transport.</div>
+<br><br>
+        <h4>The Conference Facilities</h4>
+         Conference rooms are equipped with newest technology and there's WiFi in the whole venue. Of course, there are also nice recreational areas to have a chat with peers, drink a coffee or eat lunch together.
+
+        <br><br>
         <div id="map_canvas"></div>
+        <br>
+        <h4>Address</h4>
+        University of Zurich<br>
+        Department of Informatics <br>
+        Binzmühlestrasse 14<br>
+        CH-8050 Zurich<br>
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
         <script>
             (function(){
@@ -24,7 +34,19 @@
                         title:"Hello World!"
                     });
             })();
-
         </script>
+    </div>
+    <div class="column grid_1">
+&nbsp;
+    </div>
+    <div class="column grid_5">
+
+        <h4>Zurich</h4>
+        The Frontend Conference willtake place in beautiful Zurich, Switzerland - conveniently located in the heart of Europe and easily reachable by plane, train or car.
+        <br><br>
+        <img src="/images/zhPanorama.png" class="fluid content" alt="A panoramic view of Zurich"><br>
+        Image: <a href="http://www.flickr.com/photos/somemixedstuff/2489419301/">Davide Restivo</a><br><br>
+        Whilst Zurich may be best known for its banks and as a global financial center, it's also the home of many European headquarters and R&D departments of well-known, global IT companies and of top universities (University of Zurich UZH, Swiss Federal Institute of Technology ETHZ and others). It also has a growing scene of IT and tech startups. Nice to know: Zurich is a good base for sightseeing in Switzerland too as any place in Switzerland can be reached by public transport within a few hours.
+
     </div>
 </div>
