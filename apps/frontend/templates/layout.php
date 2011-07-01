@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="column grid_3">
-                    <a href="/sponsoring"><img src="/images/logo_acme.png" alt="Become one of our two Platinum Sponsors"></a>
+                    <a href="/sponsoring"><img src="/images/logo_acme.png" alt="Become one of our two Platinum Sponsors"></a><br><br>
                 </div>
                 <div class="column grid_3">
                     <a href="/sponsoring"><img src="/images/logo_acme.png" alt="Become one of our two Platinum Sponsors"></a>

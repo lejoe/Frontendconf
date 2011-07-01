@@ -9,6 +9,7 @@
             Our goal is to initiate and establish the Frontend Conference Zurich  as a leading conference about state-of-the-art frontend and UX technologies in Europe and as the leading frontend/UX conference in Switzerland.<br><br>
         </div>
         The conference is an excellent platform for Swiss and European scientists, developers and designers to present their projects, latest research and technologies in the fields of Web technologies, Web design and UX/HCI (Human Computer Interaction). We'll offer an opportunity to network with and learn from peers and leading experts in their fields, appreciating contributions both from practitioners and academics likewise. Zurich, conveniently located in the heart of Europe, with the University of Zurich (UZH), Federal Institute of Technology (ETHZ) and other institutions of higher education and a strong and flourishing IT sector is an ideal place to establish this conference.
+        <br><br>
     </div>
     <div class="column grid_4">
         <div class="infobox">
@@ -24,6 +25,7 @@
             twitter.com/twtomcat<br>
 
         </div>
+        <br>
     </div>
 </div>
 <div class="row headroom">
@@ -40,7 +42,8 @@
             <li>Program guide ad: Half page</li>
             <li>Contribution to the goodie bag</li>
         </ul>
-        CHF 10'000.-
+        CHF 10'000.-<br><br>
+
     </div>
     <div class="column grid_4">
         <h3>Gold</h3>
@@ -54,7 +57,7 @@
             <li>Program guide ad: Quarter page</li>
             <li>Contribution to the goodie bag</li>
         </ul>
-        CHF 5'000.-
+        CHF 5'000.-<br><br>
     </div>
     <div class="column grid_4 lastBeforeFooter">
         <h3>Silver</h3>
@@ -64,7 +67,7 @@
             <li>Shared (3x) slide for the conference's sponsoring presentation slides</li>
             <li>Contribution to the goodie bag</li>
         </ul>
-            CHF 2’500.-
+            CHF 2’500.-<br><br>
     </div>
 
 </div>

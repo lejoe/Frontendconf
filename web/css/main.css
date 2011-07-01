@@ -205,7 +205,9 @@
                 text-decoration:underline;
             }
 
-
+            .footerTop {
+                display: none;
+            }
 
             a.button, input.button {
                 border: 1px solid #2e3441;
