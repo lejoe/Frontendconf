@@ -468,6 +468,14 @@
                 border: 5px solid #fff;
             }
 
+            /* Facebook iframe */
+            iframe.facebook {
+                border:none;
+                overflow:hidden;
+                width:250px;
+                height:21px;
+            }
+
             /******************/
             /** change width **/
             @media screen and (min-width: 960px){
