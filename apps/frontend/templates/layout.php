@@ -41,7 +41,7 @@
 
                 <div class="decoDivider headroom">menu</div>
                 <ul class="navigation">
-                    <a class="naviItem" href="/"><li><span>Home </span><span class="next">></span></li></a>
+                    <li><a class="naviItem" href="/"><span>Home </span><span class="next">></span></a></li>
                     <?php echo include_partial('home/navigationItems', array('myvar' => 12345)); ?>
                 </ul>
             </div>
@@ -59,7 +59,7 @@
                 <div class="column grid_3">
                     <br>
                     <ul id="footerNavigation">
-                        <a class="naviItem" href="/"><li><span>Home </span><span class="next">></span></li></a>
+                        <li><a class="naviItem" href="/"><span>Home </span><span class="next">></span></a></li>
                      <?php echo include_partial('home/navigationItems', array('myvar' => 12345)); ?>
                     </ul>
                 </div>
