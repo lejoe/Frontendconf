@@ -21,7 +21,7 @@
                 <div class="row speakerEntry">
                     <a href="/speakers#id<?php echo $speaker['id'];?>" class="rowLink">
                         <div class="column innergrid_1">
-                            <img class="person" src="/images/speakers/thumb_<?php echo $speaker['img'];?>">
+                            <img class="person" alt="<?php echo $speaker['name'];?>" src="/images/speakers/thumb_<?php echo $speaker['img'];?>">
                         </div>
                         <div class="column grid_5">
                             <h4><?php echo $speaker['name'];?></h4>
