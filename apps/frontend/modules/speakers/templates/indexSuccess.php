@@ -14,12 +14,8 @@
         <a class="button" href="/propose">Propose a Talk</a>
     </div>
 </div>
-
-<?php foreach ($speakers as $speaker):
-//var_dump($speaker);
-//die;
-
-?>
+<?php use_helper('Text') ?>
+<?php foreach ($speakers as $speaker):?>
 <div class="row speakerRow">
     <div class="column grid_12 speakerRowTop">
         <a name="id<?php echo $speaker['id'];?>"></a>
@@ -37,9 +33,6 @@ $website = $speaker['website'];
     if (!empty($website)) { ?>
             <span><a href="<?php echo $website;?>"><?php echo $website;?></a>
     <?php } ?>
-
-
-
             </span></h3>
     </div>
 </div>
@@ -47,23 +40,21 @@ $website = $speaker['website'];
     <div class="column grid_2">
             <img class="person" src="/images/speakers/<?php echo $speaker['img']; ?>">
     </div>
-    <div class="column grid_4">
-        <h4>Bio</h4>
-        <?php echo $speaker['bio']; ?><br><br>
-    </div>
     <div class="column grid_6">
-    <?php foreach ($speaker['Talks'] as $talk): ?>
-        <div class="row newsBG news">
-            <div class="column innergrid_1 newsdate">
-                <span class="day"><?php echo $talk['Programme']['day']; ?></span><br>
+        <h4>Bio</h4>
+        <?php echo auto_link_text($speaker['bio']); ?><br><br>
+    </div>
+    <div class="column grid_4">
+        <h4>Talk yet to be announced</h4>
+    <!--<?php foreach ($speaker['Talks'] as $talk): ?>
+        <h4><?php echo $talk['title']; ?></h4>
+
+         span class="day"><?php echo $talk['Programme']['day']; ?></span><br>
                 <span class="month"><?php echo substr( $talk['Programme']['timestart'], 0, 5); ?></span>
-            </div>
-            <div class="column grid_5">
-                <h4><?php echo $talk['title']; ?></h4>
-                <?php echo $talk['abstract']; ?>
-            </div>
-        </div>
-    <?php endforeach; ?>
+
+        <?php echo $talk['abstract']; ?>
+
+    <?php endforeach; ?>-->
     </div>
 </div>
 <div class="row speakerRow">
