@@ -7,8 +7,6 @@
         <link href="http://fonts.googleapis.com/css?family=Anton&v1" rel="stylesheet" type="text/css">
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <meta name="viewport" content=" minimum-scale=1.0, maximum-scale=1.0, width=device-width; user-scalable=no">
-        <style>
-        </style>
     <?php include_http_metas() ?>
     <?php include_metas() ?>
     <?php include_title() ?>
@@ -100,5 +98,6 @@
             </div>
         </div>
     <!-- PUT JS HERE -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
     </body>
 </html>

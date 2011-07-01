@@ -14,7 +14,7 @@ default:
 
   stylesheets:    [reset.css, main.css]
 
-  javascripts:    []
+  javascripts:    [jquery.mediaqueries.js]
 
   has_layout:     true
   layout:         layout
