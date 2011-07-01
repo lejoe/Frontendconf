@@ -41,12 +41,12 @@
             <legend>Orgnisational Stuff</legend>
             <p class="fsContent">
                 <label for="datePreferenceForTalk">Do you have a preference for the day of your talk?</label>
-                <input type="radio" name="datePreferenceForTalk" value="None"> None
-                <input type="radio" name="datePreferenceForTalk" value="Friday"> Friday
+                <input type="radio" name="datePreferenceForTalk" value="None"> None<br>
+                <input type="radio" name="datePreferenceForTalk" value="Friday"> Friday<br>
                 <input type="radio" name="datePreferenceForTalk" value="Saturday"> Saturday <br><br>
                 <label for="costsCovered">Does your company pay for your expenses?</label>
-                <input type="radio" name="costsCovered" value="Yes"> Yes
-                <input type="radio" name="costsCovered" value="Some"> Some
+                <input type="radio" name="costsCovered" value="Yes"> Yes<br>
+                <input type="radio" name="costsCovered" value="Some"> Some<br>
                 <input type="radio" name="costsCovered" value="No"> No<br>
             </p>
         </fieldset>
