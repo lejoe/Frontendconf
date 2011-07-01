@@ -341,6 +341,9 @@
                 margin-top: 20px;
                 padding: 0 0 12px 0;
             }
+            fieldset legend{
+                background-image: url(/images/bodyBG.png);
+            }
             fieldset label{
                 font-size: 16px;
                 text-transform: none;
