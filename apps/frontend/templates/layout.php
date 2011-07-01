@@ -75,10 +75,10 @@
                 </div>
 
                 <div class="column grid_3">
-                    <a href="http://liip.ch"><img src="/images/logo_liip.png" alt="Liip is a Silver Sponsor of the Zurich Frontend Conference"></a>
+                    <a href="/sponsoring"><img src="/images/logo_acme.png" alt="Become one of our two Platinum Sponsors"></a>
                 </div>
                 <div class="column grid_3">
-                    <a href="http://liip.ch"><img src="/images/logo_acme.png" alt="ACME is a Silver Sponsor of the Zurich Frontend Conference"></a>
+                    <a href="/sponsoring"><img src="/images/logo_acme.png" alt="Become one of our two Platinum Sponsors"></a>
                 </div>
             </div>
 
