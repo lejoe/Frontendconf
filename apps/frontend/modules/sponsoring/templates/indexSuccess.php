@@ -3,7 +3,7 @@
         <h2>Sponsoring</h2>
     </div>
 </div>
-<div class="row lastBeforeFooter">
+<div class="row ">
     <div class="column grid_8">
         <div class="lead">
             Our goal is to initiate and establish the Frontend Conference Zurich  as a leading conference about state-of-the-art frontend and UX technologies in Europe and as the leading frontend/UX conference in Switzerland.<br><br>
@@ -26,7 +26,7 @@
         </div>
     </div>
 </div>
-<div class="row lastBeforeFooter">
+<div class="row headroom">
     <div class="column grid_4">
         <h3>Platinum</h3>
         <ul class="point">
@@ -56,7 +56,7 @@
         </ul>
         CHF 5'000.-
     </div>
-    <div class="column grid_4">
+    <div class="column grid_4 lastBeforeFooter">
         <h3>Silver</h3>
         <ul class="point">
             <li>Logo on web site and program guide</li>
