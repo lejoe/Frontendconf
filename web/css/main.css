@@ -202,7 +202,7 @@
                 display:none;
             }
 
-            #footerNavigation a li span:hover {
+            #footerNavigation li a span:hover {
                 text-decoration:underline;
             }
 
@@ -315,6 +315,7 @@
             }
             .naviItem:hover{
                 color: #c28b00;
+                background-color: transparent;
             }
 
             /** FORMSTYLES **/
