@@ -38,7 +38,7 @@ $website = $speaker['website'];
 </div>
 <div class="row ">
     <div class="column grid_2">
-            <img class="person" src="/images/speakers/<?php echo $speaker['img']; ?>">
+            <img class="person" src="/images/speakers/<?php echo $speaker['img']; ?>.jpg">
     </div>
     <div class="column grid_6">
         <h4>Bio</h4>
