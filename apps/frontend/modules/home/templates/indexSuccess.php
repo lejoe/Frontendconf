@@ -4,7 +4,7 @@
                 <h2 class="mainclaim">Two days of inspiring talks on frontend and UX technologies.</h2>
             </div>
             <div class="column grid_4">
-                <img width="285" src="images/zh.gif" id="imgZH" alt="An image of Sculpture of a Lion">
+                <img width="285" height="241" src="images/zh.gif" id="imgZH" alt="An image of Sculpture of a Lion">
                     <br>
             </div>
         </div>

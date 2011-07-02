@@ -75,10 +75,10 @@
                 </div>
 
                 <div class="column grid_3">
-                    <a href="/sponsoring"><img width="220" src="/images/logo_acme.png" alt="Become one of our two Platinum Sponsors"></a><br><br>
+                    <a href="/sponsoring"><img width="220" height="100" src="/images/logo_acme.gif" alt="Become one of our two Platinum Sponsors"></a><br><br>
                 </div>
                 <div class="column grid_3">
-                    <a href="/sponsoring"><img width="220" src="/images/logo_acme.png" alt="Become one of our two Platinum Sponsors"></a>
+                    <a href="/sponsoring"><img width="220" height="100" src="/images/logo_acme.gif" alt="Become one of our two Platinum Sponsors"></a>
                 </div>
             </div>
 
