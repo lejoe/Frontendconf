@@ -1,3 +1,4 @@
+<?php use_helper('Text') ?>
         <div class="row">
             <div class="column grid_8" id="mainclaim">
                 <h2 class="mainclaim">Two days of inspiring talks on frontend and UX technologies.</h2>
@@ -25,7 +26,7 @@
                         </div>
                         <div class="column grid_5">
                             <h4><?php echo $speaker['name'];?></h4>
-                            <?php echo $speaker['bio'];?>
+                            <?php echo auto_link_text($speaker['bio']);?>
                         </div>
                     </a>
                 </div>

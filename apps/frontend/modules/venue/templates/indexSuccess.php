@@ -31,7 +31,7 @@
                     var marker = new google.maps.Marker({
                         position: myLatlng,
                         map: map,
-                        title:"Hello World!"
+                        title:"University of Zurich, Department of Informatics"
                     });
             })();
         </script>
@@ -44,7 +44,7 @@
         <h4>Zurich</h4>
         The Frontend Conference willtake place in beautiful Zurich, Switzerland - conveniently located in the heart of Europe and easily reachable by plane, train or car.
         <br><br>
-        <img src="/images/zhPanorama.png" class="fluid content" alt="A panoramic view of Zurich"><br>
+        <img src="/images/zhPanorama.jpg" class="fluid content" alt="A panoramic view of Zurich"><br>
         Image: <a href="http://www.flickr.com/photos/somemixedstuff/2489419301/">Davide Restivo</a><br><br>
         Whilst Zurich may be best known for its banks and as a global financial center, it's also the home of many European headquarters and R&D departments of well-known, global IT companies and of top universities (University of Zurich UZH, Swiss Federal Institute of Technology ETHZ and others). It also has a growing scene of IT and tech startups. Nice to know: Zurich is a good base for sightseeing in Switzerland too as any place in Switzerland can be reached by public transport within a few hours.
 
