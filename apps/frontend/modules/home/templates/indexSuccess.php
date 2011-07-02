@@ -4,7 +4,7 @@
                 <h2 class="mainclaim">Two days of inspiring talks on frontend and UX technologies.</h2>
             </div>
             <div class="column grid_4">
-                <img width="285" src="images/zh.png" id="imgZH" alt="An image of the Grossmünster Church in Zurich">
+                <img width="285" src="images/zh.gif" id="imgZH" alt="An image of Sculpture of a Lion">
                     <br>
             </div>
         </div>
@@ -22,7 +22,7 @@
                 <div class="row speakerEntry">
                     <a href="/speakers#id<?php echo $speaker['id'];?>" class="rowLink">
                         <div class="column innergrid_1">
-                            <img width="52" class="person" alt="<?php echo $speaker['name'];?>" src="/images/speakers/thumb_<?php echo $speaker['img'];?>">
+                            <img width="52" class="person" alt="<?php echo $speaker['name'];?>" src="/images/speakers/thumb_<?php echo $speaker['img'];?>.jpg">
                         </div>
                         <div class="column grid_5">
                             <h4><?php echo $speaker['name'];?></h4>
