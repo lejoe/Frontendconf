@@ -30,7 +30,7 @@
             </div>
             <div id="naviWide" class="column grid_9">
                 <ul class="navigation">
-                        <?php echo include_partial('home/navigationItems', array('myvar' => 12345)); ?>
+                        <?php echo include_partial('home/navigationItems', array('active' => $this->getModuleName())); ?>
                 </ul>
             </div>
         </div>
@@ -93,7 +93,7 @@
             </div>
             <div class="row">
                 <div class="column grid_12 footerEnd">
-                    Frontend Conference Zurich
+                    © 2011 Frontend Conference Zurich
                 </div>
             </div>
         </div>

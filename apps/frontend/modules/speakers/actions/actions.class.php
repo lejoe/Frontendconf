@@ -17,15 +17,7 @@ class speakersActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    /*$this->speakers = Doctrine_Core::getTable('speakers')
-      ->createQuery('s')
-      ->leftJoin('s.Talks t')
-      ->where('s.status = ?', 'confirmed')
-      ->execute();
 
-    print_r ($this->speakers->toArray());
-    die;
-*/
 
         $q = Doctrine_Query::create()
         ->select('s.*, t.*, p.*')
@@ -36,6 +28,7 @@ class speakersActions extends sfActions
 
     $this->speakers = $q->execute(array(), Doctrine_Core::HYDRATE_ARRAY);
 
+    $this->selectedNavi = "speakers";
 
   }
 }

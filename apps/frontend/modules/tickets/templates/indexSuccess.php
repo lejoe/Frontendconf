@@ -16,7 +16,6 @@
     <div class="column grid_4">
         <div class="infobox">
             <h3>Get Notified</h3>
-            <a href="http://twitter.com/frontendconfch">Follow us on Twitter @frontendconfch</a> <div class="decoDivider">or</div>
             Leave us your email-address and we will inform you once we're ready.<br>
             <form action ="/tickets/rememberMe/" method="post"><br>
                 <label for="email">Email<span class="mandatory">★ mandatory</span></label>
@@ -24,8 +23,9 @@
                     <br><br>
                 <input class="button" type="submit" value="Subscribe">
                 <br><br><br>
+                <div class="decoDivider">or</div>
+                <a href="http://twitter.com/frontendconfch">Follow us on Twitter @frontendconfch</a>
 
-                We will not use your email address for anything else than this purpose, we promise!
             </form>
         </div>
     </div>

@@ -1,6 +1,6 @@
 <div class="row">
     <div class="column grid_12">
-        <h2>Speakers </h2>
+        <h2>Speakers</h2>
     </div>
 </div>
 <div class="row">
@@ -12,6 +12,11 @@
     </div>
     <div class="column grid_6">
         <a class="button" href="/propose">Propose a Talk</a>
+    </div>
+</div>
+<div class="row">
+    <div class="column grid_12 speakerRowBottom">
+        &nbsp;
     </div>
 </div>
 <?php use_helper('Text') ?>

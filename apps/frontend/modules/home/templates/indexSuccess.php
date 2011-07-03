@@ -20,21 +20,19 @@
                 </div>
 <?php foreach ($speakers as $speaker):?>
                 <div class="row speakerEntry">
-                    <a href="/speakers#id<?php echo $speaker['id'];?>" class="rowLink">
-                        <div class="column innergrid_1">
-                            <img width="52" height="52" class="person" alt="<?php echo $speaker['name'];?>" src="/images/speakers/thumb_<?php echo $speaker['img'];?>.jpg">
-                        </div>
-                        <div class="column grid_5">
-                            <h4><?php echo $speaker['name'];?></h4>
-                            <?php echo auto_link_text($speaker['bio']);?>
-                        </div>
-                    </a>
+                    <div class="column innergrid_1">
+                        <img width="52" height="52" class="person" alt="<?php echo $speaker['name'];?>" src="/images/speakers/thumb_<?php echo $speaker['img'];?>.jpg">
+                    </div>
+                    <div class="column grid_5">
+                        <h4><a href="/speakers#id<?php echo $speaker['id'];?>"><?php echo $speaker['name'];?></a></h4>
+                        <?php echo auto_link_text($speaker['bio']);?>
+                    </div>
                 </div>
 <?php endforeach; ?>
 
                 <div class="row">
                     <div class="column grid_6">
-                        <h3 class="close">&lt;speakers/></h3>
+                        <h3 class="close"><a href="/speakers">&lt;speakers/></a></h3>
                     </div>
                 </div>
             </div>
@@ -64,7 +62,7 @@
                 <?php endforeach; ?>
                 <div class="row">
                     <div class="column grid_6">
-                        <h3 class="news newsClose">&lt;news/></h3>
+                        <h3 class="news newsClose"&lt;news/></h3>
                     </div>
                 </div>
                 <div class="row">
@@ -108,7 +106,7 @@
                 </div>
                 <div class="row">
                     <div class="column grid_6">
-                        <h3 class="close">&lt;twitter/></h3>
+                        <h3 class="close"><a href="http://twitter.com/frontendconfch">&lt;twitter/></a></h3>
                     </div>
                 </div>
 
