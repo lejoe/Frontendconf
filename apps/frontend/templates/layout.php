@@ -18,7 +18,10 @@
         <div id="topBar">
             <div class="row">
                 <a id ="menuButton" href="#mobileNavigation" class="barButton">Menu</a>
-                <div id="socialMediaLinks"></div>
+                <div id="socialMediaLinks">
+                    <a href="http://www.facebook.com/pages/Frontend-Conference-Zurich/160697803997079"><div class="socialMediaLinks smfb"></div></a>
+                    <a href="http://twitter.com/frontendconfch"><div class="socialMediaLinks smtwitter"></div></a>
+                </div>
             </div>
         </div>
         <div class="row" id="header">

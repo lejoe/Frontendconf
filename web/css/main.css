@@ -275,12 +275,36 @@
             }
 
             #socialMediaLinks {
-                height: 19px;
-                width: 69px;
-                margin-right: 10px;
                 float: right;
+                height: 44px;
+                width: 75px;
+            }
+            .socialMediaLinks {
+                height: 25px;
+                width: 25px;
                 margin-top: 12px;
-                background: url(images/social-media-icons.png) no-repeat;
+                margin-right: 10px;
+                float:left;
+            }
+
+            .smfb{
+                background: url(/images/social-media-icons.gif) no-repeat;
+            }
+
+            .smfb:hover {
+                background-position:0 -25px;
+            }
+
+            .smtwitter{
+                background: url(/images/social-media-icons.gif) no-repeat;
+                background-position: -25px 0;
+            }
+
+            .smtwitter:hover{
+                background-position: -25px -25px;
+            }
+            .smflickr{
+                background: url(/images/social-media-icons.gif) no-repeat;
             }
 
             #naviWide {
@@ -529,6 +553,14 @@
 
                 #topBar {
                     margin-bottom: 40px;
+                    height:28px;
+                }
+
+                #socialMediaLinks {
+                    height: 28px;
+                }
+                .socialMediaLinks {
+                    margin-top: 4px;
                 }
 
                 #menuButton {
