@@ -38,7 +38,7 @@
         </fieldset>
 
         <fieldset>
-            <legend>Orgnisational Stuff</legend>
+            <legend>Organisational Stuff</legend>
             <p class="fsContent">
                 <label for="datePreferenceForTalk">Do you have a preference for the day of your talk?</label>
                 <input type="radio" name="datePreferenceForTalk" value="None"> None<br>
