@@ -22,7 +22,7 @@ class ProjectConfiguration extends sfProjectConfiguration
     public function getAgent() {
         $agent['type'] = "desktop";
         $header = $_SERVER['HTTP_USER_AGENT'];
-        if(preg_match("Android", $header) OR preg_match('#Mobile/.+Safari#i', $header)) {
+        if(preg_match("#Android#i", $header) OR preg_match('#Mobile/.+Safari#i', $header)) {
             $agent['type'] = "mobile";
         };
         $agent['header'] = $header;
