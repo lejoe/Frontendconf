@@ -51,7 +51,7 @@
                 padding-bottom: 0;
                 margin-top: 24px;
                 margin-bottom: 24px;
-                font-family: Impact, Anton;
+                font-family: Anton, Impact;
                 text-transform: uppercase;
                 font-weight: normal;
                 letter-spacing:0.05em;
@@ -62,7 +62,7 @@
             h2.mainclaim {
                 font-size: 34px;
                 line-height: 1.2em;
-                font-family: Anton;
+                font-family: Impact, Anton;
             }
 
             h3 {
