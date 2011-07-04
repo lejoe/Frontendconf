@@ -5,7 +5,7 @@
         <link href="http://fonts.googleapis.com/css?family=Copse&v1" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Droid+Sans&v1" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Anton&v1" rel="stylesheet" type="text/css"><meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <meta name="viewport" content=" minimum-scale=1.0, maximum-scale=1.0; user-scalable=no">
+        <meta name="viewport" content=" minimum-scale=1.0, maximum-scale=1.0, width=device-width; user-scalable=no">
     <?php include_http_metas() ?>
     <?php include_metas() ?>
     <?php include_title() ?>
@@ -72,7 +72,13 @@
                 </div>
                 <div class="column grid_3">
                     <div id="footerSocialMedia">
-
+                        <br>
+                            <!--
+                        <iframe src="http://www.facebook.com/plugins/like.php?app_id=155023517904442&amp;href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FFrontend-Conference-Zurich%2F160697803997079&amp;send=false&amp;layout=button_count&amp;width=250&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" allowTransparency="true" class="facebook"></iframe>
+                        <br><br>
+                        <a href="http://twitter.com/frontendconfch" class="twitter-follow-button" data-button="grey" data-text-color="#FFFFFF" data-link-color="#00AEFF" data-show-count="false">Follow @frontendconfch</a>
+                        <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+                -->
                     </div>
                 </div>
 
