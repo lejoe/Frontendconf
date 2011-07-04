@@ -254,13 +254,10 @@
             .barButton {
                 font-family: 'Droid Sans', Helvetica, Verdana, sans-serif;
                 text-transform: uppercase;
-                text-decoration: none;
                 font-weight: bold;
                 font-size: 12px;
-                color: #233248;
                 display: inline;
-                line-height: 44px;
-                padding: 8px 8px;
+                padding: 8px;
                 margin: 0;
                 border: 0;
                 border-radius: 4px;
@@ -274,6 +271,13 @@
                     color-stop(100%, #c4b289)
                 );
                 background-image: -moz-linear-gradient(center top , #dfd4b9, #c4b289);
+            }
+
+            #menuButtonLink {
+                text-decoration: none;
+                color: #233248;
+                line-height: 40px;
+
             }
 
             #socialMediaLinks {
