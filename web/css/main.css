@@ -62,7 +62,7 @@
             h2.mainclaim {
                 font-size: 34px;
                 line-height: 1.2em;
-                font-family: Impact, Anton;
+                font-family: Anton, Impact;
             }
 
             h3 {
@@ -338,6 +338,10 @@
             .navigation a {
                 text-decoration: none;
                 display: block;
+            }
+
+            .navigation a:active {
+                background-color: #c7bea6;
             }
 
             .navigation li {
