@@ -67,8 +67,8 @@
                 </div>
                 <div class="row">
                     <div class="column grid_6">
-                        <?php echo $agent;?>
-                        <?php if($agent == "desktop")  {?>
+                        <?php echo $agent['header'];?>
+                        <?php if($agent['type'] == "desktop")  {?>
                         <br><br>
                         <h3 class="front">Twitter</h3>
                         <script src="http://widgets.twimg.com/j/2/widget.js"></script>
