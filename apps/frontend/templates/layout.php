@@ -38,10 +38,8 @@
         </div>
     <?php echo $sf_content ?>
         <div class="row" id="naviMobile">
-            <a id="mobileNavigation"></a>
-            <div >
-
-                <div class="decoDivider headroom">menu</div>
+            <div>
+                <h5 id="mobileNavigation" name="mobileNavigation" class="decoDivider headroom">menu</h5>
                 <ul class="navigation">
                     <li><a class="naviItem" href="/"><span>Home </span><span class="next">></span></a></li>
                     <?php echo include_partial('home/navigationItems', array('myvar' => 12345)); ?>
