@@ -332,7 +332,7 @@
 
             .navigation a {
                 text-decoration: none;
-                width: 100%;
+                display: block;
             }
 
             .navigation li {
@@ -532,6 +532,9 @@
                     line-height: 45px;
                     vertical-align: middle;
                     overflow: auto;
+                }
+                .navigation a {
+                    display: inline;
                 }
 
                 .navigation li {
