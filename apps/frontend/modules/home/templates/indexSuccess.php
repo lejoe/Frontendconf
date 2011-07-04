@@ -62,7 +62,7 @@
                 <?php endforeach; ?>
                 <div class="row">
                     <div class="column grid_6">
-                        <h3 class="news newsClose"&lt;news/></h3>
+                        <h3 class="news newsClose">&lt;news/></h3>
                     </div>
                 </div>
                 <div class="row">
