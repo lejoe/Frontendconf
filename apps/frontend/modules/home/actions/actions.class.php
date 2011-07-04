@@ -30,5 +30,10 @@ class homeActions extends sfActions
         ->orderBy('n.date desc');
 
     $this->news = $q->execute(array(), Doctrine_Core::HYDRATE_ARRAY);
+    $this->agent = "desktop";
+    $header = $request->getHttpHeader('User-Agent');
+    if(preg_match("Android", $header) OR preg_match('#Mobile/.+Safari#i', $header)) {
+        $this->agent = "mobile";
+    };
   }
 }

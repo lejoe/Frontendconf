@@ -67,10 +67,9 @@
                 </div>
                 <div class="row">
                     <div class="column grid_6">
+                        <?php if($agent == "desktop")  {?>
                         <br><br>
                         <h3 class="front">Twitter</h3>
-
-
                         <script src="http://widgets.twimg.com/j/2/widget.js"></script>
                         <script>
                             new TWTR.Widget({
@@ -102,11 +101,13 @@
                             }
                             }).render().setUser('frontendconfch').start();
                         </script>
+
                     </div>
                 </div>
                 <div class="row">
                     <div class="column grid_6">
                         <h3 class="close"><a href="http://twitter.com/frontendconfch">&lt;twitter/></a></h3>
+                        <?php } ?>
                     </div>
                 </div>
 
