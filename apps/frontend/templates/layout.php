@@ -10,6 +10,7 @@
     <?php include_metas() ?>
     <?php include_title() ?>
     <link rel="shortcut icon" href="/favicon.png" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" >
 
     <?php include_javascripts() ?>
     </head>
@@ -99,5 +100,15 @@
             </div>
         </div>
     <!-- PUT JS HERE -->
+        <script>
+            $(document).ready(function(){
+                $('#menuButton').click(function() {
+                    var elementClicked = $(this).attr("href");
+                    var destination = $(elementClicked).offset().top;
+                    $("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination-20}, 500 );
+                    return false;
+                 });
+            });
+        </script>
     </body>
 </html>
