@@ -23,7 +23,7 @@
 
             body {
                 background-color: #e1d7bc;
-                background-image: url(/images/bodyBG.png);
+                background-image: url(/images/bodyBG.gif);
                 font-family: Copse, Georgia, serif;
                 font-size: 93.75%;
                 line-height: 21px;
@@ -216,6 +216,7 @@
                 text-decoration: underline;
             }
 
+
             .footerTop {
                 display: none;
             }
@@ -331,6 +332,7 @@
 
             .navigation a {
                 text-decoration: none;
+                display: block;
             }
 
             .navigation li {
@@ -530,6 +532,10 @@
                     line-height: 45px;
                     vertical-align: middle;
                     overflow: auto;
+                }
+
+                .navigation a {
+                    display: inline;
                 }
 
                 .navigation li {
