@@ -2,8 +2,9 @@
 <html>
     <head>
         <?php include_stylesheets() ?>
-        <link href="http://fonts.googleapis.com/css?family=Copse&v1|Droid+Sans&v1|Anton&v1" rel="stylesheet" type="text/css">
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link href="http://fonts.googleapis.com/css?family=Copse&v1" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Droid+Sans&v1" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Anton&v1" rel="stylesheet" type="text/css"><meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <meta name="viewport" content=" minimum-scale=1.0, maximum-scale=1.0, width=device-width; user-scalable=no">
     <?php include_http_metas() ?>
     <?php include_metas() ?>
