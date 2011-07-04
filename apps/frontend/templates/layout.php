@@ -13,6 +13,12 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" >
 
     <?php include_javascripts() ?>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-24147044-1']);
+      _gaq.push(['_setDomainName', '.frontendconf.ch']);
+      _gaq.push(['_trackPageview']);
+    </script>
     </head>
     <body>
         <div id="topBar">
@@ -99,7 +105,6 @@
                 </div>
             </div>
         </div>
-    <!-- PUT JS HERE -->
         <script>
             $(document).ready(function(){
                 $('#menuButton').click(function() {
@@ -109,6 +114,12 @@
                     return false;
                  });
             });
+        </script>
+        <script type="text/javascript">  (function() {
+         var ga = document.createElement('script');     ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:'   == document.location.protocol ? 'https://ssl'   : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
         </script>
     </body>
 </html>
