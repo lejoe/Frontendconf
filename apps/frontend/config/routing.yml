@@ -14,6 +14,14 @@ tickets:
   url:  /tickets/rememberMe/
   param: { module: tickets, action: rememberMe }
   
+speakers:
+  url:  /speakers/
+  param: { module: speakers, action: index }
+  
+speakers:
+  url:  /speakers/th3sup3rs3cr3tpr0p0s4ll1st/
+  param: { module: speakers, action: th3sup3rs3cr3tpr0p0s4ll1st }
+  
 
 # generic rules
 # please, remove them by adding more specific rules

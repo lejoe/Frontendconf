@@ -31,4 +31,17 @@ class speakersActions extends sfActions
     $this->selectedNavi = "speakers";
 
   }
+  public function executeTh3sup3rs3cr3tpr0p0s4ll1st(sfWebRequest $request){
+            $q = Doctrine_Query::create()
+        ->select('s.*, t.*, p.*')
+        ->from('Speakers s')
+        ->leftJoin('s.Talks t')
+        ->leftJoin('t.Programme p')
+        ->where('s.status = ?', 'applied');
+
+    $this->speakers = $q->execute(array(), Doctrine_Core::HYDRATE_ARRAY);
+
+    $this->selectedNavi = "speakers";
+    $this->setTemplate("th3sup3rs3cr3tpr0p0s4ll1st");
+  }
 }
