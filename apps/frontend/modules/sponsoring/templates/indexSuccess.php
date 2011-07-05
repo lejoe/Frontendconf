@@ -17,7 +17,7 @@
 
             All information on the benefits, sponsorship options and pricing.<br><br>
 
-            <input class="button" type="submit" value="Sponsors Info PDF">
+            <a href="/summary.pdf"><input class="button" type="submit" value="Sponsors Info PDF"></a>
             <br><br>
             <h4>Sponsoring contact</h4>
             Markus Leutwyler<br>
