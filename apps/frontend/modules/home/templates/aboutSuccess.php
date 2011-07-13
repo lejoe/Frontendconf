@@ -16,12 +16,12 @@
             </div>
             <div class="column grid_5">
                 <h4>The organizers:</h4>
-                Joël Bez<br>
+                Joël Bez, <a href="http://twitter.com/lejoe">@lejoe</a><br>
                 Sonia Cirillo<br>
-                Markus Leutwyler<br>
-                Daniel Mettler<br>
-                Samuel Raymann<br>
-                Michael Schmid<br>
-                Memi Beltrame<br>
+                Markus Leutwyler, <a href="http://twitter.com/twtomcat">@twtomcat</a><br>
+                Daniel Mettler, <a href="http://twitter.com/mettlerd">@mettlerd</a><br>
+                Samuel Raymann, <a href="http://twitter.com/samraymann">@samraymann</a><br>
+                Michael Schmid, <a href="http://twitter.com/schnitzel">@schnitzel</a><br>
+                Memi Beltrame, <a href="http://twitter.com/bratwurstkomet">@bratwurstkomet</a><br>
             </div>
         </div>
