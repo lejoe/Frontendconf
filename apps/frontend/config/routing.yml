@@ -6,6 +6,10 @@ homepage:
   url:   /
   param: { module: home, action: index }
 
+about:
+  url:  /about/
+  param: { module: home, action: about }
+  
 tickets:
   url:  /tickets/
   param: { module: tickets, action: index }

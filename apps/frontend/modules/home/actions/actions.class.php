@@ -31,4 +31,8 @@ class homeActions extends sfActions
 
     $this->news = $q->execute(array(), Doctrine_Core::HYDRATE_ARRAY);
   }
+  public function executeAbout(sfWebRequest $request)
+  {
+        $this->setTemplate("about");
+  }
 }

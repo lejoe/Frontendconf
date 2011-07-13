@@ -68,6 +68,7 @@
                     <ul id="footerNavigation">
                         <li><a class="naviItem" href="/"><span>Home </span><span class="next">></span></a></li>
                      <?php echo include_partial('home/navigationItems', array('myvar' => 12345)); ?>
+                        <li><a class="naviItem" href="/about/"><span>About</span><span class="next">></span></a></li>
                     </ul>
                 </div>
                 <div class="column grid_3">
