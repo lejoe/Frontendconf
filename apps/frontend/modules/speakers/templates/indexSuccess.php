@@ -11,7 +11,7 @@
         </div>
     </div>
     <div class="column grid_6">
-        <a class="button" href="/propose">Propose a Talk</a>
+        <a class="button" href="/propose">Propose a Talk<span class="small">Deadline: 7th of August, midnight</span></a>
     </div>
 </div>
 <div class="row">

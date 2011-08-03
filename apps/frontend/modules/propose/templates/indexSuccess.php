@@ -58,6 +58,10 @@
         &nbsp;
     </div>
     <div class="column grid_5">
+        <h3>Deadlines:</h3>
+        <strong class="bold">7th of August, midnight:</strong> End of the call for talks<br>
+        <strong class="bold">Until 13th of August:</strong> We will contact everyone that has submitted a talk proposal
+        <br><br>
         <h3>Speaker Info</h3>
         If you plan on speaking at the Conference you might want to know the following:<br>
         <ul  class="point">

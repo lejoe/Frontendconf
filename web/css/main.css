@@ -236,7 +236,7 @@
                 color: #fff0cd;
                 font-size: 24px;
                 font-weight: normal;
-                height:44px;
+                height:60px;
                 line-height: 44px;
                 vertical-align: middle;
                 background: #0e3861;
@@ -249,6 +249,12 @@
                         color-stop(100%, #071941)
                     );
                 background-image: -moz-linear-gradient(center top , #364f5d, #2e3441);
+            }
+            
+            a.button .small {
+                font-size: 14px;
+                line-height: 0px;
+                display: block;
             }
 
             .barButton {
@@ -517,6 +523,11 @@
                 width:250px;
                 height:21px;
             }
+            
+            .bold {
+                font-weight: bold;
+/*                display: block;*/
+            }
 
             /******************/
             /** change width **/
@@ -609,7 +620,7 @@
                 a.button {
                     border-radius: 12px;
                     font-size: 32px;
-                    height: 72px;
+                    height: 86px;
                     line-height: 72px;
                 }
 
