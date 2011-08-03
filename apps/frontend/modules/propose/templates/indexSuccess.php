@@ -38,7 +38,7 @@
         </fieldset>
 
         <fieldset>
-            <legend>Organisational Stuff</legend>
+            <legend>Organizational Stuff</legend>
             <p class="fsContent">
                 <label for="datePreferenceForTalk">Do you have a preference for the day of your talk?</label>
                 <input type="radio" name="datePreferenceForTalk" value="None"> None<br>
@@ -65,7 +65,7 @@
         <h3>Speaker Info</h3>
         If you plan on speaking at the Conference you might want to know the following:<br>
         <ul  class="point">
-            <li>We will cover your travelling costs and offer you accommodation.</li>
+            <li>We will cover your traveling costs and offer you accommodation.</li>
             <li>We can't pay you a salary or fee for giving the talk or preparing it</li>
             <li>We're in it for the love of it, and don't make any money.</li>
             <li>If your company can support you by covering some of your expenses we are very thankful - we can use every dime. In return this entitles your company to a "Contributor Sponsorship"</li>
