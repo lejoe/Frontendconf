@@ -50,16 +50,15 @@ $website = $speaker['website'];
         <?php echo auto_link_text($speaker['bio']); ?><br><br>
     </div>
     <div class="column grid_4">
-        <h4>Talk yet to be announced</h4>
-    <!--<?php foreach ($speaker['Talks'] as $talk): ?>
+    <?php foreach ($speaker['Talks'] as $talk): ?>
         <h4><?php echo $talk['title']; ?></h4>
-
-         span class="day"><?php echo $talk['Programme']['day']; ?></span><br>
-                <span class="month"><?php echo substr( $talk['Programme']['timestart'], 0, 5); ?></span>
+        <!--
+        <span class="day"><?php echo $talk['Programme']['day']; ?></span><br>
+        <span class="month"><?php echo substr( $talk['Programme']['timestart'], 0, 5); ?></span>-->
 
         <?php echo $talk['abstract']; ?>
 
-    <?php endforeach; ?>-->
+    <?php endforeach; ?>
     </div>
 </div>
 <div class="row speakerRow">
