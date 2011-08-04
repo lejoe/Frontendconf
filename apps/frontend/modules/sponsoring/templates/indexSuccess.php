@@ -42,7 +42,7 @@
             <li>Program guide ad: Half page</li>
             <li>Contribution to the goodie bag</li>
         </ul>
-        CHF 10'000.-<br><br>
+        CHF 5'000.-<br><br>
 
     </div>
     <div class="column grid_4">
@@ -57,7 +57,7 @@
             <li>Program guide ad: Quarter page</li>
             <li>Contribution to the goodie bag</li>
         </ul>
-        CHF 5'000.-<br><br>
+        CHF 2'500.-<br><br>
     </div>
     <div class="column grid_4 lastBeforeFooter">
         <h3>Silver</h3>
@@ -67,7 +67,7 @@
             <li>Shared (3x) slide for the conference's sponsoring presentation slides</li>
             <li>Contribution to the goodie bag</li>
         </ul>
-            CHF 2’500.-<br><br>
+            CHF 1’000.-<br><br>
     </div>
 
 </div>
