@@ -250,11 +250,12 @@
                     );
                 background-image: -moz-linear-gradient(center top , #364f5d, #2e3441);
             }
-            
+
             a.button .small {
                 font-size: 14px;
                 line-height: 0px;
                 display: block;
+                text-shadow: none;
             }
 
             .barButton {
@@ -523,7 +524,7 @@
                 width:250px;
                 height:21px;
             }
-            
+
             .bold {
                 font-weight: bold;
 /*                display: block;*/
