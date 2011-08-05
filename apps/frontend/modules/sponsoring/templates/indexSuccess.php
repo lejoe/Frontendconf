@@ -14,11 +14,11 @@
     <div class="column grid_4">
         <div class="infobox">
             <h4>Sponsoring contact</h4>
+            <br>
             Markus Leutwyler<br>
             markus < at > frontendconf.ch<br>
             twitter.com/twtomcat<br>
-            <br><br>
-            <a href="/sponsors">See who is sponsoring so far</a>
+            
 
 
         </div>
