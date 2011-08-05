@@ -124,11 +124,10 @@
 </div>
 <div class="row lastBeforeFooter">
     <div class="column grid_3">
-        <a href="http://divio.ch"><img src="/images/sponsors/unic.gif" alt="Divio is one of our Silver Sponsors"></a>
+        <a href="http://divio.ch"><img src="/images/sponsors/divio.gif" alt="Divio is one of our Silver Sponsors"></a>
     </div>
     <div class="column grid_7">
-        Unic is one of Switzerland's leading Internet Solutions Providers with offices in Amsterdam, Berne, Karlsruhe, Vienna and Zurich. Unic designs, develops and maintains E-Business and Enterprise Content Management solutions for a growing number of established enterprises.
-        <br><a href="http://divio.ch">Divio Website</a>
+        <a href="http://divio.ch">Divio Website</a>
     </div>
     <div class="column grid_2">
         &nbsp;
