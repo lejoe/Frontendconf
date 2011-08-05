@@ -530,6 +530,9 @@
 /*                display: block;*/
             }
 
+            .sponsorRow {
+                padding-bottom: 24px;
+            }
             /******************/
             /** change width **/
             @media screen and (min-width: 960px){
