@@ -13,19 +13,21 @@
     </div>
     <div class="column grid_4">
         <div class="infobox">
-            <h3>Get all the Sponsor Info</h3>
-
-            All information on the benefits, sponsorship options and pricing.<br><br>
-
-            <a href="/summary.pdf"><input class="button" type="submit" value="Sponsors Info PDF"></a>
-            <br><br>
             <h4>Sponsoring contact</h4>
             Markus Leutwyler<br>
             markus < at > frontendconf.ch<br>
             twitter.com/twtomcat<br>
+            <br><br>
+            <a href="/sponsors">See who is sponsoring so far</a>
+
 
         </div>
         <br>
+    </div>
+</div>
+<div class="row ">
+    <div class="column grid_12">
+        All information on the benefits, sponsorship options and pricing:
     </div>
 </div>
 <div class="row headroom">
