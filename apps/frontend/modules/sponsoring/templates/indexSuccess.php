@@ -38,7 +38,7 @@
             <li>Logo, link & description on conference's sponsoring web page</li>
             <li>Dedicated slide for the conference's sponsoring presentation slides</li>
             <li>6 free tickets</li>
-            <li>> Hiring corner: A3 paper</li>
+            <li>Hiring corner: A3 paper</li>
             <li>Program guide ad: Half page</li>
             <li>Contribution to the goodie bag</li>
         </ul>
