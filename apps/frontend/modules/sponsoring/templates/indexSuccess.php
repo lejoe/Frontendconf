@@ -18,7 +18,8 @@
             Markus Leutwyler<br>
             markus < at > frontendconf.ch<br>
             twitter.com/twtomcat<br>
-            
+            <br><br>
+            <a href="/sponsors">See who is sponsoring so far</a>
 
 
         </div>

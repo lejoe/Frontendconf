@@ -84,10 +84,10 @@
                 </div>
 
                 <div class="column grid_3">
-                    <a href="/sponsoring"><img width="220" height="100" src="/images/sponsors/netcetera.gif" alt="Netcetera is one of our two Platinum Sponsors"></a><br><br>
+                    <a href="/sponsors#netcetera"><img width="220" height="100" src="/images/sponsors/netcetera.gif" alt="Netcetera is one of our two Platinum Sponsors"></a><br><br>
                 </div>
                 <div class="column grid_3">
-                    <a href="/sponsoring"><img width="220" height="100" src="/images/sponsors/unic.gif" alt="Unic is one of our two Platinum Sponsors"></a>
+                    <a href="/sponsors#unic"><img width="220" height="100" src="/images/sponsors/unic.gif" alt="Unic is one of our two Platinum Sponsors"></a>
                 </div>
             </div>
 
