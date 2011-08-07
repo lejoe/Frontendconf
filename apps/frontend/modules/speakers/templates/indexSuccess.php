@@ -6,12 +6,12 @@
 <div class="row">
     <div class="column grid_6">
         <div class="lead">
-        We have some confirmed speakers, others will follow in the next days. But we are looking for more. So feel free to propose a talk or join the conference as an attendee.
+        We have some confirmed speakers, others will follow in the next days.
         <br><br>
         </div>
     </div>
     <div class="column grid_6">
-        <a class="button" href="/propose">Propose a Talk<span class="small">Deadline: 7th of August, midnight</span></a>
+        <a class="button" href="/tickets">Get an Early Bird Ticket</a>
     </div>
 </div>
 <div class="row">
