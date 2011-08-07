@@ -4,12 +4,15 @@
     </div>
 </div>
 <div class="row">
-    <div class="column grid_8">
+    <div class="column grid_6">
         <div class="lead">
             The Frontend Conference Zurich was made possible thanks to the awesome contributions of the following companies:<br><br>
         </div>
      </div>
     <div class="column grid_4">
+        <a class="button" href="/sponsoring">Sponsor Us!</a>
+    </div>
+    <div class="column grid_2">
         &nbsp;
     </div>
 </div>
