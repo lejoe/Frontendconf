@@ -104,7 +104,7 @@
         <a href="http://nine.ch"><img src="/images/sponsors/nine.gif" alt="Nine is one of our Gold Sponsors"></a>
     </div>
     <div class="column grid_7">
-        Nine Internet Solutions AG is an Internet provider that is specialised in tailor-made hosting and server solutions based in Zurich, Switzerland.
+        Nine Internet Solutions AG is a specialist in high-end hosting solutions since 1999. Our service portfolio offers suitable solutions for every requirement you may have, including managed High Availability Clusters and Colocation services. Our employees are committed to transparent services and unbureaucratic, excellent customer support and will help you in every situation.
         <br><a href="http://nine.ch">Nine Website</a>
     </div>
     <div class="column grid_2">
