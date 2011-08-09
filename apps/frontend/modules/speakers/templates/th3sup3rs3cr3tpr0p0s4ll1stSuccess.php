@@ -47,6 +47,8 @@ $website = $speaker['website'];
     <div class="column grid_6">
         <h4>Bio</h4>
         <?php echo auto_link_text($speaker['bio']); ?><br><br>
+        Costs Covered <?php echo $speaker['costscovered']; ?><br>
+        Date preference: <?php echo $talk['datepreferencefortalk']; ?><br>
     </div>
     <div class="column grid_4">
 
