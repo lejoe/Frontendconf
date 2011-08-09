@@ -99,13 +99,26 @@
         &nbsp;
     </div>
 </div>
-<div class="row">
+<div class="row sponsorRow">
     <div class="column grid_3">
         <a href="http://nine.ch"><img src="/images/sponsors/nine.gif" alt="Nine is one of our Gold Sponsors"></a>
     </div>
     <div class="column grid_7">
         Nine Internet Solutions AG is a specialist in high-end hosting solutions since 1999. Our service portfolio offers suitable solutions for every requirement you may have, including managed High Availability Clusters and Colocation services. Our employees are committed to transparent services and unbureaucratic, excellent customer support and will help you in every situation.
         <br><a href="http://nine.ch">Nine Website</a>
+    </div>
+    <div class="column grid_2">
+        &nbsp;
+    </div>
+</div>
+<div class="row">
+    <div class="column grid_3">
+        <a href="http://local.ch"><img src="/images/sponsors/localch.gif" alt="Local.ch is one of our Gold Sponsors"></a>
+    </div>
+    <div class="column grid_7">
+        local.ch is the joint brand name for three companies, Swisscom Directories Ltd, LTV Yellow Pages Ltd and local.ch Ltd. These three companies operate jointly in the market in terms of sales and products and they are run by a joint management team.
+        The local.ch brand covers the well-known regional telephone books, the Yellow Pages, the local search engine on the Internet and mobile searches on mobile phones.
+        <br><a href="http://local.ch">Local.ch Website</a>
     </div>
     <div class="column grid_2">
         &nbsp;
