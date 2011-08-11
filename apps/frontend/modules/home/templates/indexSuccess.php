@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="column grid_6">
-                <a class="button" href="/tickets">Get an Early Bird Ticket</a>
+                <a class="button" href="/tickets">Get Your Ticket</a>
                 <br><br>
 
                 <!-- news -->
