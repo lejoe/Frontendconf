@@ -143,6 +143,13 @@
         <a href="http://divio.ch"><img src="/images/sponsors/divio.gif" alt="Divio is one of our Silver Sponsors"></a>
     </div>
     <div class="column grid_7">
+        Divio AG was launched in Zurich, Switzerland in 2001. Since then, Divio has
+grown into a full-service web agency with over 20 employees specializing in
+the design and development of web applications. The company works with the
+cutting-edge web framework Django, and is also the lead developer of the
+open source projects <a href="http://www.django-cms.org">django CMS</a> and <a href="http://www.django-shop.org">django SHOP</a>. As a proponent of the Scrum approach, the
+Divio team uses agile software development methodologies in all its
+projects.<br>
         <a href="http://divio.ch">Divio Website</a>
     </div>
     <div class="column grid_2">
