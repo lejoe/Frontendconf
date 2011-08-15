@@ -22,6 +22,5 @@
                 Daniel Mettler, <a href="http://twitter.com/mettlerd">@mettlerd</a><br>
                 Samuel Raymann, <a href="http://twitter.com/samraymann">@samraymann</a><br>
                 Michael Schmid, <a href="http://twitter.com/schnitzel">@schnitzel</a><br>
-                Memi Beltrame, <a href="http://twitter.com/bratwurstkomet">@bratwurstkomet</a><br>
             </div>
         </div>
