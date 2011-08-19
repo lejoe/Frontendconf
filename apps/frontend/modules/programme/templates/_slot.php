@@ -6,5 +6,8 @@
                     </div>
                     <div class="column grid_2">
                         <h4><?php echo $speaker['name'];?></h4>
+                        <?php if (!empty($speaker['profession'])) {
+                            //echo " " . $speaker['profession'];?>
+                        <?php } ?>
                     </div>
                 </div>
