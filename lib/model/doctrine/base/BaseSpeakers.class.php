@@ -60,14 +60,15 @@ abstract class BaseSpeakers extends sfDoctrineRecord
              'autoincrement' => true,
              'length' => 4,
              ));
-        $this->hasColumn('name', 'string', 32, array(
+        $this->hasColumn('name', 'string', 36, array(
              'type' => 'string',
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
+             'default' => '',
              'notnull' => true,
              'autoincrement' => false,
-             'length' => 32,
+             'length' => 36,
              ));
         $this->hasColumn('profession', 'string', 32, array(
              'type' => 'string',

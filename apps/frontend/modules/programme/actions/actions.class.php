@@ -18,14 +18,24 @@ class programmeActions extends sfActions
   public function executeIndex(sfWebRequest $request)
   {
             $q = Doctrine_Query::create()
-        ->select('s.*, t.*, p.*')
+        ->select('s.*, t.*')
         ->from('Speakers s')
         ->leftJoin('s.Talks t')
-        ->leftJoin('t.Programme p')
-        ->where('s.status = ?', 'confirmed');
+        ->where('s.status = ?', 'confirmed')
+        ->orderBy('t.slot');
 
-    $this->speakers = $q->execute(array(), Doctrine_Core::HYDRATE_ARRAY);
+    $speakers = $q->execute(array(), Doctrine_Core::HYDRATE_ARRAY);
+    /*var_dump($this->speakers);
+    die();*/
 
     $this->selectedNavi = "programme";
+
+    $this->slots = Array();
+
+    foreach ($speakers as $speaker) {
+        $this->slots[] = $speaker;
+    }
+
+
   }
 }

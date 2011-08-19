@@ -72,10 +72,11 @@ Programme:
       notnull: true
       autoincrement: false
     room:
-      type: string(32)
+      type: text()
       fixed: false
       unsigned: false
       primary: false
+      default: ''
       notnull: true
       autoincrement: false
     day:
@@ -83,7 +84,7 @@ Programme:
       fixed: false
       unsigned: false
       primary: false
-      notnull: true
+      notnull: false
       autoincrement: false
     timestart:
       type: time(25)
@@ -104,6 +105,7 @@ Programme:
       fixed: false
       unsigned: false
       primary: false
+      default: ''
       notnull: true
       autoincrement: false
 Speakers:
@@ -117,10 +119,11 @@ Speakers:
       primary: true
       autoincrement: true
     name:
-      type: string(32)
+      type: string(36)
       fixed: false
       unsigned: false
       primary: false
+      default: ''
       notnull: true
       autoincrement: false
     profession:
@@ -256,6 +259,13 @@ Talks:
       notnull: false
       autoincrement: false
     linktopresentation:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    slot:
       type: integer(4)
       fixed: false
       unsigned: false

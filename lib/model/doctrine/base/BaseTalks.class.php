@@ -13,6 +13,7 @@ Doctrine_Manager::getInstance()->bindComponent('Talks', 'doctrine');
  * @property string $abstract
  * @property text $datepreferencefortalk
  * @property integer $linktopresentation
+ * @property integer $slot
  * 
  * @method integer getId()                    Returns the current record's "id" value
  * @method integer getFkSpeakers()            Returns the current record's "fk_speakers" value
@@ -20,12 +21,14 @@ Doctrine_Manager::getInstance()->bindComponent('Talks', 'doctrine');
  * @method string  getAbstract()              Returns the current record's "abstract" value
  * @method text    getDatepreferencefortalk() Returns the current record's "datepreferencefortalk" value
  * @method integer getLinktopresentation()    Returns the current record's "linktopresentation" value
+ * @method integer getSlot()                  Returns the current record's "slot" value
  * @method Talks   setId()                    Sets the current record's "id" value
  * @method Talks   setFkSpeakers()            Sets the current record's "fk_speakers" value
  * @method Talks   setTitle()                 Sets the current record's "title" value
  * @method Talks   setAbstract()              Sets the current record's "abstract" value
  * @method Talks   setDatepreferencefortalk() Sets the current record's "datepreferencefortalk" value
  * @method Talks   setLinktopresentation()    Sets the current record's "linktopresentation" value
+ * @method Talks   setSlot()                  Sets the current record's "slot" value
  * 
  * @package    frontendconference
  * @subpackage model
@@ -82,6 +85,15 @@ abstract class BaseTalks extends sfDoctrineRecord
              'length' => '',
              ));
         $this->hasColumn('linktopresentation', 'integer', 4, array(
+             'type' => 'integer',
+             'fixed' => 0,
+             'unsigned' => false,
+             'primary' => false,
+             'notnull' => false,
+             'autoincrement' => false,
+             'length' => 4,
+             ));
+        $this->hasColumn('slot', 'integer', 4, array(
              'type' => 'integer',
              'fixed' => 0,
              'unsigned' => false,

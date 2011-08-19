@@ -9,7 +9,7 @@ Doctrine_Manager::getInstance()->bindComponent('Programme', 'doctrine');
  * 
  * @property integer $id
  * @property integer $fk_talks
- * @property string $room
+ * @property text $room
  * @property text $day
  * @property time $timestart
  * @property time $timeend
@@ -17,7 +17,7 @@ Doctrine_Manager::getInstance()->bindComponent('Programme', 'doctrine');
  * 
  * @method integer   getId()        Returns the current record's "id" value
  * @method integer   getFkTalks()   Returns the current record's "fk_talks" value
- * @method string    getRoom()      Returns the current record's "room" value
+ * @method text      getRoom()      Returns the current record's "room" value
  * @method text      getDay()       Returns the current record's "day" value
  * @method time      getTimestart() Returns the current record's "timestart" value
  * @method time      getTimeend()   Returns the current record's "timeend" value
@@ -57,21 +57,22 @@ abstract class BaseProgramme extends sfDoctrineRecord
              'autoincrement' => false,
              'length' => 4,
              ));
-        $this->hasColumn('room', 'string', 32, array(
-             'type' => 'string',
+        $this->hasColumn('room', 'text', null, array(
+             'type' => 'text',
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
+             'default' => '',
              'notnull' => true,
              'autoincrement' => false,
-             'length' => 32,
+             'length' => '',
              ));
         $this->hasColumn('day', 'text', null, array(
              'type' => 'text',
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
-             'notnull' => true,
+             'notnull' => false,
              'autoincrement' => false,
              'length' => '',
              ));
@@ -98,6 +99,7 @@ abstract class BaseProgramme extends sfDoctrineRecord
              'fixed' => 0,
              'unsigned' => false,
              'primary' => false,
+             'default' => '',
              'notnull' => true,
              'autoincrement' => false,
              'length' => '',
