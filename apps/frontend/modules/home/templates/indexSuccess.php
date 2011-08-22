@@ -21,7 +21,9 @@
 <?php foreach ($speakers as $speaker):?>
                 <div class="row speakerEntry">
                     <div class="column innergrid_1">
+                        <?php if (!empty($speaker['img'])) {?>
                         <img width="52" height="52" class="person" alt="<?php echo $speaker['name'];?>" src="/images/speakers/thumb_<?php echo $speaker['img'];?>.jpg">
+                        <?php } ?>
                     </div>
                     <div class="column grid_5">
                         <h4><a href="/speakers#id<?php echo $speaker['id'];?>"><?php echo $speaker['name'];?></a></h4>
