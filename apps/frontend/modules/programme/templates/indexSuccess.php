@@ -86,7 +86,7 @@
             12.00 - 13.30
         </div>
         <div class="column grid_10">
-            Lunch
+            Lunch (included in the ticket)
         </div>
     </div>
 
