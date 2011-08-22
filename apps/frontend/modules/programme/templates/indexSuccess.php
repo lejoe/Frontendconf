@@ -143,6 +143,15 @@
             <?php echo include_partial('programme/slot', array('speaker' => $slots[14])); ?>
         </div>
     </div>
+    
+    <div class="row">
+        <div class="column grid_2">
+            18.00 - ...
+        </div>
+        <div class="column grid_10">
+            Party time @ <a href="http://www.amboss-bier.ch/">Amboss Rampe</a>
+        </div>
+    </div>
 </div>
 
 
