@@ -35,7 +35,12 @@ class programmeActions extends sfActions
     foreach ($speakers as $speaker) {
         $this->slots[] = $speaker;
     }
-
+  
 
   }
+  
+    public function executeSaturday(sfWebRequest $request){
+      $this->selectedNavi = "programme";
+      $this->setTemplate("saturday");
+    }
 }

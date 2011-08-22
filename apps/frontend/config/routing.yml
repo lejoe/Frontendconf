@@ -25,7 +25,14 @@ speakers:
 speakers:
   url:  /speakers/th3sup3rs3cr3tpr0p0s4ll1st/
   param: { module: speakers, action: th3sup3rs3cr3tpr0p0s4ll1st }
+
+programme:
+  url:  /programme/
+  param: { module: programme, action: index }
   
+programme:
+  url:  /programme/saturday/
+  param: { module: programme, action: saturday }
 
 # generic rules
 # please, remove them by adding more specific rules

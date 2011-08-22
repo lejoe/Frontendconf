@@ -4,11 +4,10 @@
     </div>
 </div>
 <div class="row">
-    <div class="column grid_6">
-        <div class="lead">
-        &nbsp;
+    <div class="column grid_6 secondNavigation">
+        <a class="active" href="/programme">Friday</a>
+        <a href="/programme/saturday">Saturday</a>
         <br><br>
-        </div>
     </div>
     <div class="column grid_6">
         <a class="button" href="/tickets">Get Your Ticket</a>
