@@ -5,10 +5,7 @@
 </div>
 <div class="row">
     <div class="column grid_6">
-        <div class="lead">
-        We have some confirmed speakers, others will follow in the next days.
-        <br><br>
-        </div>
+        &nbsp;
     </div>
     <div class="column grid_6">
         <a class="button" href="/tickets">Get Your Ticket</a>
