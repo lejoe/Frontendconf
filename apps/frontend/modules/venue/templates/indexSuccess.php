@@ -35,6 +35,20 @@
                     });
             })();
         </script>
+        <br><br>
+        <h4>Hotel recommendations</h4>
+        <h5>Near the conference venue:</h5>
+        <ul class="point">
+          <li><a href="http://www.holidayinn.com/hotels/us/en/zurich/zrhme/hoteldetail">Holliday Inn - Messe Zurich</a></li>
+          <li><a href="http://www.swissotel.com/EN/Destinations/Switzerland/Swissotel+Zurich/Hotel+Home/Hotel+Home.htm">Swissôtel Zurich</a></li>
+          <li><a href="http://www.marriott.de/hotels/travel/zrhcy-courtyard-zurich-north/">Marriott - Courtyard Zürich Nord</a></li>
+        </ul>
+        <h5>Other links:</h5>
+        <ul class="point">
+          <li>Find an hotel <a href="http://www.zuerich.com/en/Visitor/accommodation.html"> on zurich tourismus</a></li>
+          <li>Lower costs: <a href="http://www.airbnb.com">rent a room on Airbnb</a></li>
+          <li>No costs: <a href="http://www.couchsurfing.org">find a place on a couch</a></li>
+        </ul>
     </div>
     <div class="column grid_1">
 &nbsp;
