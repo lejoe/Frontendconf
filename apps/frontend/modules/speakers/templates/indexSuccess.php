@@ -45,6 +45,8 @@ $website = $speaker['website'];
     <div class="column grid_2">
             <?php if (!empty($speaker['img'])) {?>
             <img width="132" height="132" alt="<?php echo $speaker['name'];?>" class="person" src="/images/speakers/<?php echo $speaker['img']; ?>.jpg">
+            <?php } else {?>
+              &nbsp;
             <?php } ?>
     </div>
     <div class="column grid_6">
