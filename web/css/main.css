@@ -536,6 +536,37 @@
             .sponsorRow {
                 padding-bottom: 24px;
             }
+            
+            #programme .row .speakerEntry {
+                clear: both;
+                margin-top: 0px;
+            }
+            
+            #programme .row .speakerEntry a {
+                display: block;
+            }
+            
+            #programme .row.head {
+                display: none;
+            }
+            
+            #programme .row {
+                margin-top: 50px;
+            }
+            
+            #programme .column.grid_3 {
+                display: block;
+            }
+            
+            #programme .speakerEntry h4 {
+                margin: 7px 0 8px 0px;
+                height: 65px;
+            }
+            
+            #programme .speakerEntry .innergrid_1 {
+                margin-right: 10px;
+            }
+            
             /******************/
             /** change width **/
             @media screen and (min-width: 960px){
@@ -725,6 +756,7 @@
                     margin-top: 8px;
                     line-height: 20px;
                     text-shadow: 0 1px 0 #E6DFCA;
+                    margin: 8px 0 7px 0px;
                 }
 
                 #footerNavigation a {
@@ -736,4 +768,9 @@
                     border-top: 2px solid #504937;
                     color: #756b52;
                 }
+                
+                #programme .row.head {
+                    display: inherit;
+                }
+                
             }
