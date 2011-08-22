@@ -567,6 +567,15 @@
                 margin-right: 10px;
             }
             
+            .secondNavigation a {
+                display: inline;
+                font-size: 22px;
+                line-height: 72px;
+                margin-right: 20px;
+                text-decoration: none;
+                padding: 7px 10px 6px;
+            }
+            
             /******************/
             /** change width **/
             @media screen and (min-width: 960px){
