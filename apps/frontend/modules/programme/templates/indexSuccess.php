@@ -6,7 +6,7 @@
 <div class="row">
     <div class="column grid_6">
         <div class="lead">
-        We have some confirmed speakers, others will follow in the next days.
+        &nbsp;
         <br><br>
         </div>
     </div>
@@ -19,18 +19,18 @@
 <div id="programme">
     <div class="row head">
         <div class="column grid_2">
-            Time
+            &nbsp;
         </div>
         <div class="column grid_3 ">
-            Room Foobar
-        </div>
-
-        <div class="column grid_3 ">
-            Room Netcetera
+            <h3>Design & UX Track</h3>
         </div>
 
         <div class="column grid_3 ">
-            Room Unic
+            <h3>Javascript Track</h3>
+        </div>
+
+        <div class="column grid_3 ">
+            <h3>Web Standard Track</h3>
         </div>
 
     </div>
@@ -160,10 +160,3 @@
     </div>
 </div>
 <?php use_helper('Text') ?>
-
-
-<div class="row lastBeforeFooter">
-    <div class="column grid_12">
-        &nbsp;
-    </div>
-</div>
