@@ -39,7 +39,7 @@
         <h4>Hotel recommendations</h4>
         <h5>Near the conference venue:</h5>
         <ul class="point">
-          <li><a href="http://www.holidayinn.com/hotels/us/en/zurich/zrhme/hoteldetail">Holliday Inn - Messe Zurich</a></li>
+          <li><a href="http://www.holidayinn.com/hotels/us/en/zurich/zrhme/hoteldetail">Holiday Inn - Messe Zurich</a></li>
           <li><a href="http://www.swissotel.com/EN/Destinations/Switzerland/Swissotel+Zurich/Hotel+Home/Hotel+Home.htm">Swissôtel Zurich</a></li>
           <li><a href="http://www.marriott.de/hotels/travel/zrhcy-courtyard-zurich-north/">Marriott - Courtyard Zürich Nord</a></li>
         </ul>
