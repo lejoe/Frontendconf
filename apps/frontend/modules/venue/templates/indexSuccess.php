@@ -42,6 +42,7 @@
           <li><a href="http://www.holidayinn.com/hotels/us/en/zurich/zrhme/hoteldetail">Holiday Inn - Messe Zurich</a></li>
           <li><a href="http://www.swissotel.com/EN/Destinations/Switzerland/Swissotel+Zurich/Hotel+Home/Hotel+Home.htm">Swissôtel Zurich</a></li>
           <li><a href="http://www.marriott.de/hotels/travel/zrhcy-courtyard-zurich-north/">Marriott - Courtyard Zürich Nord</a></li>
+          <li><a href="http://hotel-rothaus.ch/en/">Hotel Rothaus</a></li>
         </ul>
         <h5>Other links:</h5>
         <ul class="point">
