@@ -129,7 +129,7 @@
 </div>
 
 <!-- Silver -->
-<div class="row">
+<div class="row ">
     <div class="column grid_8">
         <br><br>
         <h3>Silver Sponsors</h3>
@@ -138,7 +138,7 @@
         &nbsp;
     </div>
 </div>
-<div class="row lastBeforeFooter">
+<div class="row sponsorRow">
     <div class="column grid_3">
         <a href="http://divio.ch"><img src="/images/sponsors/divio.gif" alt="Divio is one of our Silver Sponsors"></a>
     </div>
@@ -151,6 +151,32 @@ open source projects <a href="http://www.django-cms.org">django CMS</a> and <a h
 Divio team uses agile software development methodologies in all its
 projects.<br>
         <a href="http://divio.ch">Divio Website</a>
+    </div>
+    <div class="column grid_2">
+        &nbsp;
+    </div>
+</div>
+<div class="row speakerRow">
+    <div class="column grid_12 speakerRowBottom"> &nbsp; </div>
+</div>
+
+<!-- Contribution -->
+<div class="row">
+    <div class="column grid_8">
+        <br><br>
+        <h3>Contribution Sponsors</h3>
+    </div>
+    <div class="column grid_4">
+        &nbsp;
+    </div>
+</div>
+<div class="row lastBeforeFooter">
+    <div class="column grid_3">
+        <a href="http://www.mozilla.org"><img src="/images/sponsors/mozilla.gif" alt="Mozilla is one of our Contribution Sponsors"></a>
+    </div>
+    <div class="column grid_7">
+        &nbsp;<br>
+        <a href="http://www.mozilla.org">Mozilla Website</a>
     </div>
     <div class="column grid_2">
         &nbsp;
