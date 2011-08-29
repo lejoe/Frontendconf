@@ -126,13 +126,13 @@
 </div>
 <div class="row">
     <div class="column grid_3">
-        <a href="http://namics.ch"><img src="/images/sponsors/namics.gif" alt="Namics is one of our Gold Sponsors"></a>
+        <a href="http://www.namics.com/frontend"><img src="/images/sponsors/namics.gif" alt="Namics is one of our Gold Sponsors"></a>
     </div>
     <div class="column grid_7">
         Namics, based in Zurich and St. Gallen, Switzerland and Germany, is a consulting firm specializing in the development of web applications for ecommerce, Intranet, brand communication and web content management. 
         Namics serves companies in a variety of industries in Europe, including automotive, telecommunication, insurance, consumer goods and many others. 
         Namics objective is to maintain long-term customer relationships by delivering on customer expectations, and the company has found that the application development environment can be a key contributor.
-        <br><a href="http://namics.ch">Namics Website</a>
+        <br><a href="http://www.namics.com/frontend">Namics Website</a>
     </div>
     <div class="column grid_2">
         &nbsp;
