@@ -112,13 +112,27 @@
         &nbsp;
     </div>
 </div>
-<div class="row">
+<div class="row sponsorRow">
     <div class="column grid_3">
         <a href="http://nine.ch"><img src="/images/sponsors/nine.gif" alt="Nine is one of our Gold Sponsors"></a>
     </div>
     <div class="column grid_7">
         Nine Internet Solutions AG is a specialist in high-end hosting solutions since 1999. Our service portfolio offers suitable solutions for every requirement you may have, including managed High Availability Clusters and Colocation services. Our employees are committed to transparent services and unbureaucratic, excellent customer support and will help you in every situation.
         <br><a href="http://nine.ch">Nine Website</a>
+    </div>
+    <div class="column grid_2">
+        &nbsp;
+    </div>
+</div>
+<div class="row">
+    <div class="column grid_3">
+        <a href="http://namics.ch"><img src="/images/sponsors/namics.gif" alt="Namics is one of our Gold Sponsors"></a>
+    </div>
+    <div class="column grid_7">
+        Namics, based in Zurich and St. Gallen, Switzerland and Germany, is a consulting firm specializing in the development of web applications for ecommerce, Intranet, brand communication and web content management. 
+        Namics serves companies in a variety of industries in Europe, including automotive, telecommunication, insurance, consumer goods and many others. 
+        Namics objective is to maintain long-term customer relationships by delivering on customer expectations, and the company has found that the application development environment can be a key contributor.
+        <br><a href="http://namics.ch">Namics Website</a>
     </div>
     <div class="column grid_2">
         &nbsp;
@@ -175,7 +189,7 @@ projects.<br>
         <a href="http://www.mozilla.org"><img src="/images/sponsors/mozilla.gif" alt="Mozilla is one of our Contribution Sponsors"></a>
     </div>
     <div class="column grid_7">
-        &nbsp;<br>
+        "Mozilla's mission is to promote openness, innovation and opportunity on the web. We do this by creating great software, like the <a href="http://www.firefox.com/">Firefox</a> browser, and building movements, like <a href="http://www.drumbeat.org/">Drumbeat</a>, that give people tools to take control of their online lives. As a <a href="        http://www.mozilla.org/foundation">non-profit organization</a>, we define success in terms of building communities and enriching people’s lives instead of benefiting shareholders. We believe in the power and potential of the Internet and want to see it thrive for everyone, everywhere."<br>
         <a href="http://www.mozilla.org">Mozilla Website</a>
     </div>
     <div class="column grid_2">
