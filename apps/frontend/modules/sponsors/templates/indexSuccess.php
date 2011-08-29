@@ -189,7 +189,7 @@ projects.<br>
         <a href="http://www.mozilla.org"><img src="/images/sponsors/mozilla.gif" alt="Mozilla is one of our Contribution Sponsors"></a>
     </div>
     <div class="column grid_7">
-        "Mozilla's mission is to promote openness, innovation and opportunity on the web. We do this by creating great software, like the <a href="http://www.firefox.com/">Firefox</a> browser, and building movements, like <a href="http://www.drumbeat.org/">Drumbeat</a>, that give people tools to take control of their online lives. As a <a href="        http://www.mozilla.org/foundation">non-profit organization</a>, we define success in terms of building communities and enriching people’s lives instead of benefiting shareholders. We believe in the power and potential of the Internet and want to see it thrive for everyone, everywhere."<br>
+        Mozilla's mission is to promote openness, innovation and opportunity on the web. We do this by creating great software, like the <a href="http://www.firefox.com/">Firefox</a> browser, and building movements, like <a href="http://www.drumbeat.org/">Drumbeat</a>, that give people tools to take control of their online lives. As a <a href="        http://www.mozilla.org/foundation">non-profit organization</a>, we define success in terms of building communities and enriching people’s lives instead of benefiting shareholders. We believe in the power and potential of the Internet and want to see it thrive for everyone, everywhere.<br>
         <a href="http://www.mozilla.org">Mozilla Website</a>
     </div>
     <div class="column grid_2">
