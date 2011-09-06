@@ -17,6 +17,6 @@ class infoActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-    $this->selectedNavi = "speakers";
+    $this->selectedNavi = "info";
   }
 }

@@ -518,6 +518,26 @@
             mapStyles {
                 border: 5px solid #fff;
             }
+            
+            /* info */
+            
+            .lineheader10, .lineheader11 {
+                padding-left: 20px;
+                line-height: 16px;
+                vertical-align: middle;
+            }
+            
+            .lineheader10 {
+                background: url("/images/tram10.gif") no-repeat  0 0;
+            }
+            
+            .lineheader11 {
+                background: url("/images/tram11.gif") no-repeat  0 0;
+            }
+            
+            h5 {
+                font-weight: bold;
+            }
 
 
             /* Facebook iframe */
@@ -704,15 +724,6 @@
 
                 .footerTop {
                     border-bottom: 2px solid #504937;
-                }
-
-                /* info */
-
-                .lineheader10 {
-                    background: url("/images/tram10.gif") no-repeat  0 0;
-                    padding-left: 20px;
-                    line-height: 16px;
-                    vertical-align: middle;
                 }
 
                 /* ================ */
