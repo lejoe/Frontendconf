@@ -96,8 +96,7 @@
                     &nbsp;
                 </div>
                 <div class="column grid_6">
-                    <br>
-                        <a href="/sponsoring">Become a Sponsor</a>
+                    &nbsp;
                 </div>
             </div>
             <div class="row">
