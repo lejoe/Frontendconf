@@ -96,17 +96,5 @@
     </div>
 </div>
 
-
-
-
-
-
-
-
-
-<div class="row">
-    <div class="column grid_12 speakerRowBottom">
-        &nbsp;
-    </div>
-</div>
+<br><br>
 <?php use_helper('Text') ?>
