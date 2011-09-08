@@ -562,10 +562,6 @@
                 margin-top: 0px;
             }
             
-            #programme .row .speakerEntry a {
-                display: block;
-            }
-            
             #programme .row.head {
                 display: none;
             }
@@ -580,16 +576,25 @@
             
             #programme .speakerEntry h4 {
                 margin: 7px 0 8px 0px;
-                height: 65px;
             }
             
             #programme .speakerEntry .innergrid_1 {
                 margin-right: 10px;
+                width: 100%;
             }
             
             #programme .break {
                 background: none repeat scroll 0 0 #CEC0A1;
-                font-weight: normal;
+            }
+            
+            #programme .speakerEntry .topic {
+                text-transform: uppercase;
+                display: inline;
+            }
+            
+            #programme .speakerEntry .person {
+                float: left;
+                margin-right: 10px;
             }
             
             .secondNavigation a {
@@ -796,6 +801,10 @@
                 
                 #programme .row.head {
                     display: inherit;
+                }
+                
+                #programme .speakerEntry .innergrid_1 {
+                    margin-left: 0px;
                 }
                 
             }
