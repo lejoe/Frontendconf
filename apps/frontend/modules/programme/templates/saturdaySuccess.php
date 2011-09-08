@@ -27,7 +27,7 @@
         <div class="column grid_2">
             09.00 - 10.00
         </div>
-        <div class="column grid_10">
+        <div class="column grid_10 break">
             Propose your topic and choose the ones your are interested in
         </div>
     </div>
@@ -54,8 +54,8 @@
         <div class="column grid_2">
             12.00 - 13.30
         </div>
-        <div class="column grid_10">
-            Lunch
+        <div class="column grid_10 break">
+            Lunch (included in the ticket)
         </div>
     </div>
 
@@ -81,7 +81,7 @@
         <div class="column grid_2">
             15.30 - 16.00
         </div>
-        <div class="column grid_10">
+        <div class="column grid_10 break">
             Coffee Break
         </div>
     </div>

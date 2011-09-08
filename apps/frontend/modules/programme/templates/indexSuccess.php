@@ -37,7 +37,7 @@
         <div class="column grid_2">
             8.30 - 9.30
         </div>
-        <div class="column grid_10">
+        <div class="column grid_10 break">
             Registration
         </div>
     </div>
@@ -46,7 +46,7 @@
         <div class="column grid_2">
             9.30 - 10.00
         </div>
-        <div class="column grid_10">
+        <div class="column grid_10 break">
             Conference Opening
         </div>
     </div>
@@ -85,7 +85,7 @@
         <div class="column grid_2">
             12.00 - 13.30
         </div>
-        <div class="column grid_10">
+        <div class="column grid_10 break">
             Lunch (included in the ticket)
         </div>
     </div>
@@ -124,7 +124,7 @@
         <div class="column grid_2">
             15.30 - 16.00
         </div>
-        <div class="column grid_10">
+        <div class="column grid_10 break">
             Coffee Break
         </div>
     </div>
@@ -148,7 +148,7 @@
         <div class="column grid_2">
             18.00 - ...
         </div>
-        <div class="column grid_10">
+        <div class="column grid_10 break">
             Party time @ <a href="http://www.amboss-bier.ch/">Amboss Rampe</a>
         </div>
     </div>
