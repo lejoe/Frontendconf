@@ -587,6 +587,11 @@
                 margin-right: 10px;
             }
             
+            #programme .grid_10 {
+                background: none repeat scroll 0 0 #CEC0A1;
+                font-weight: normal;
+            }
+            
             .secondNavigation a {
                 display: inline;
                 font-size: 22px;
