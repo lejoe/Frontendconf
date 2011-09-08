@@ -14,6 +14,7 @@ Doctrine_Manager::getInstance()->bindComponent('Talks', 'doctrine');
  * @property text $datepreferencefortalk
  * @property integer $linktopresentation
  * @property integer $slot
+ * @property text $topic
  * 
  * @method integer getId()                    Returns the current record's "id" value
  * @method integer getFkSpeakers()            Returns the current record's "fk_speakers" value
@@ -22,6 +23,7 @@ Doctrine_Manager::getInstance()->bindComponent('Talks', 'doctrine');
  * @method text    getDatepreferencefortalk() Returns the current record's "datepreferencefortalk" value
  * @method integer getLinktopresentation()    Returns the current record's "linktopresentation" value
  * @method integer getSlot()                  Returns the current record's "slot" value
+ * @method text    getTopic()                 Returns the current record's "topic" value
  * @method Talks   setId()                    Sets the current record's "id" value
  * @method Talks   setFkSpeakers()            Sets the current record's "fk_speakers" value
  * @method Talks   setTitle()                 Sets the current record's "title" value
@@ -29,6 +31,7 @@ Doctrine_Manager::getInstance()->bindComponent('Talks', 'doctrine');
  * @method Talks   setDatepreferencefortalk() Sets the current record's "datepreferencefortalk" value
  * @method Talks   setLinktopresentation()    Sets the current record's "linktopresentation" value
  * @method Talks   setSlot()                  Sets the current record's "slot" value
+ * @method Talks   setTopic()                 Sets the current record's "topic" value
  * 
  * @package    frontendconference
  * @subpackage model
@@ -101,6 +104,16 @@ abstract class BaseTalks extends sfDoctrineRecord
              'notnull' => false,
              'autoincrement' => false,
              'length' => 4,
+             ));
+        $this->hasColumn('topic', 'text', null, array(
+             'type' => 'text',
+             'fixed' => 0,
+             'unsigned' => false,
+             'primary' => false,
+             'default' => 'Javascript',
+             'notnull' => true,
+             'autoincrement' => false,
+             'length' => '',
              ));
     }
 

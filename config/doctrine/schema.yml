@@ -23,6 +23,21 @@ Attendees:
       default: '0000-00-00 00:00:00'
       notnull: true
       autoincrement: false
+MigrationVersion:
+  connection: doctrine
+  tableName: migration_version
+  columns:
+    id:
+      type: integer(8)
+      autoincrement: true
+      primary: true
+    version:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
 News:
   connection: doctrine
   tableName: news
@@ -271,4 +286,12 @@ Talks:
       unsigned: false
       primary: false
       notnull: false
+      autoincrement: false
+    topic:
+      type: text()
+      fixed: false
+      unsigned: false
+      primary: false
+      default: Javascript
+      notnull: true
       autoincrement: false
