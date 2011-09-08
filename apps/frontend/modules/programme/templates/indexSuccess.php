@@ -21,15 +21,15 @@
             &nbsp;
         </div>
         <div class="column grid_3 ">
-            <h3>Design & UX Track</h3>
+            <h3>Room Netcetera</h3>
         </div>
 
         <div class="column grid_3 ">
-            <h3>Javascript Track</h3>
+            <h3>Room Unic</h3>
         </div>
 
         <div class="column grid_3 ">
-            <h3>Web Standard Track</h3>
+            <h3>Room foobar</h3>
         </div>
 
     </div>
