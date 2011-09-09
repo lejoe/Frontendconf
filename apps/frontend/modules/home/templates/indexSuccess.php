@@ -39,8 +39,13 @@
                 </div>
             </div>
             <div class="column grid_6">
-                <a class="button" href="/tickets">Get Your Ticket</a>
-                <br><br>
+                <div class="row">
+                    <div class="column grid_6">
+                        <h3 class="news">Live stream</h3>
+                    </div>
+                </div>
+                
+                <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="460" height="274" id="utv831003"><param name="flashvars" value="autoplay=false&amp;brand=embed&amp;cid=9249035&amp;v3=1"/><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always"/><param name="movie" value="http://www.ustream.tv/flash/viewer.swf"/><embed flashvars="autoplay=false&amp;brand=embed&amp;cid=9249035&amp;v3=1" width="460" height="296" allowfullscreen="true" allowscriptaccess="always" id="utv831003" name="utv_n_978414" src="http://www.ustream.tv/flash/viewer.swf" type="application/x-shockwave-flash" /></object><br /><br /><br />
 
                 <!-- news -->
 
