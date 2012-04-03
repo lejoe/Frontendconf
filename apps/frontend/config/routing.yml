@@ -14,25 +14,27 @@ tickets:
   url:  /tickets/
   param: { module: tickets, action: index }
   
-tickets:
-  url:  /tickets/rememberMe/
-  param: { module: tickets, action: rememberMe }
-  
-speakers:
-  url:  /speakers/
-  param: { module: speakers, action: index }
-  
+
 speakers:
   url:  /speakers/th3sup3rs3cr3tpr0p0s4ll1st/
   param: { module: speakers, action: th3sup3rs3cr3tpr0p0s4ll1st }
 
-programme:
-  url:  /programme/
-  param: { module: programme, action: index }
+speakers:
+  url:  /speakers/
+  param: { module: speakers, action: index }
   
+sponsors:
+  url:  /sponsors/
+  param: { module: sponsors, action: index }
+  
+
 programme:
   url:  /programme/saturday/
   param: { module: programme, action: saturday }
+
+programme:
+  url:  /programme/
+  param: { module: programme, action: index }
 
 venues:
   url:  /venues

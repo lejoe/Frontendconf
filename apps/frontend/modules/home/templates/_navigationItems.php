@@ -1,5 +1,5 @@
-<li><a class="naviItem <?php echo (isset($active) && $active == "speakers") ? 'active' : '';?>" href="/speakers"><span>Speakers</span><span class="next">></span></a></li>
-<li><a class="naviItem <?php echo (isset($active) && $active == "programme") ? 'active' : '';?>" href="/programme"><span>Programme</span><span class="next">></span></a></li>
-<li><a class="naviItem <?php echo (isset($active) && $active == "tickets") ? 'active' : '';?>" href="/tickets"><span>Tickets</span><span class="next">></span></a></li>
-<li><a class="naviItem <?php echo (isset($active) && $active == "venues") ? 'active' : '';?>" href="/venues"><span>Venues</span><span class="next">></span></a></li>
-<li class="last"><a class="naviItem <?php echo (isset($active) && $active == "sponsors") ? 'active' : '';?>" href="/sponsors"><span>Sponsors</span><span class="next">></span></a></li>
+<li><a class="naviItem <?php echo (isset($active) && $active == "speakers") ? 'active' : '';?>" href="<?php echo url_for('speakers') ?>"><span>Speakers</span><span class="next">></span></a></li>
+<li><a class="naviItem <?php echo (isset($active) && $active == "programme") ? 'active' : '';?>" href="<?php echo url_for('programme') ?>"><span>Programme</span><span class="next">></span></a></li>
+<li><a class="naviItem <?php echo (isset($active) && $active == "tickets") ? 'active' : '';?>" href="<?php echo url_for('tickets') ?>"><span>Tickets</span><span class="next">></span></a></li>
+<li><a class="naviItem <?php echo (isset($active) && $active == "venues") ? 'active' : '';?>" href="<?php echo url_for('venues') ?>"><span>Venues</span><span class="next">></span></a></li>
+<li class="last"><a class="naviItem <?php echo (isset($active) && $active == "sponsors") ? 'active' : '';?>" href="<?php echo url_for('sponsors') ?>"><span>Sponsors</span><span class="next">></span></a></li>
